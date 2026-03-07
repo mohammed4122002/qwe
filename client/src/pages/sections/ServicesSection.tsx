@@ -68,10 +68,10 @@ export const ServicesSection = (): JSX.Element => {
                       alt="Service icon"
                       src={card.icon}
                     />
-                    <h3 className="w-full text-right font-normal text-[#1d293b] text-lg leading-7 [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                    <h3 className="w-full text-right font-normal text-[#1D3E4B] text-lg leading-7 [font-family:'Tajawal',sans-serif] [direction:rtl]">
                       {card.title}
                     </h3>
-                    <p className="w-full text-right font-normal text-[#94a2b8] text-sm leading-5 [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                    <p className="w-full text-right font-normal text-[#8B939A] text-sm leading-5 [font-family:'Tajawal',sans-serif] [direction:rtl]">
                       {card.description}
                     </p>
                   </CardContent>
@@ -81,7 +81,7 @@ export const ServicesSection = (): JSX.Element => {
           </div>
 
           <div className="w-full lg:w-[520px] flex flex-col items-end gap-6">
-            <Badge className="h-auto px-4 py-2 bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] rounded-full gap-2 [font-family:'Tajawal',sans-serif]">
+            <Badge className="h-auto px-4 py-2 bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] rounded-full gap-2 [font-family:'Tajawal',sans-serif]">
               <img
                 className="w-4 h-6"
                 alt="Icon"
@@ -93,16 +93,16 @@ export const ServicesSection = (): JSX.Element => {
             </Badge>
 
             <div className="flex flex-col items-end gap-6">
-              <h2 className="text-right font-bold text-[#1d293b] text-4xl leading-10 [font-family:'Tajawal',sans-serif] [direction:rtl]">
-                كيف يمكنني <span className="text-[#362a9b]">مساعدتك؟</span>
+              <h2 className="text-right font-bold text-[#1D3E4B] text-4xl leading-10 [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                كيف يمكنني <span className="text-[#1D3E4B]">مساعدتك؟</span>
               </h2>
 
-              <p className="text-right font-normal text-[#64738b] text-base leading-[26px] [font-family:'Tajawal',sans-serif] [direction:rtl]">
+              <p className="text-right font-normal text-[#8B939A] text-base leading-[26px] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 أقدم مجموعة متكاملة من الخدمات الاستشارية والتدريبية لمساعدة
                 رواد الأعمال والشركات على تحقيق أهدافهم
               </p>
 
-              <Button className="h-auto px-8 py-4 bg-[#362a9b] hover:bg-[#362a9b]/90 rounded-xl gap-3 [font-family:'Tajawal',sans-serif]">
+              <Button className="h-auto px-8 py-4 bg-[#1D3E4B] hover:bg-[#1D3E4B]/90 rounded-xl gap-3 [font-family:'Tajawal',sans-serif]">
                 <img
                   className="w-[14.02px] h-5"
                   alt="Icon"
@@ -118,12 +118,12 @@ export const ServicesSection = (): JSX.Element => {
       </div>
 
       <div className="relative w-full overflow-hidden mt-24">
-        <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(255,255,255,1)_0%,rgba(238,237,250,0.3)_50%,rgba(255,255,255,1)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(244,245,244,1)_0%,rgba(139,147,154,0.22)_50%,rgba(244,245,244,1)_100%)]" />
 
         <div className="relative w-full max-w-7xl mx-auto px-6 py-16">
           <div className="flex flex-col items-center gap-16">
             <div className="flex flex-col items-center gap-6 w-full">
-              <Badge className="h-auto px-4 py-2 bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] rounded-full gap-2 [font-family:'Tajawal',sans-serif]">
+              <Badge className="h-auto px-4 py-2 bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] rounded-full gap-2 [font-family:'Tajawal',sans-serif]">
                 <img
                   className="w-[16.33px] h-6"
                   alt="Icon"
@@ -134,11 +134,11 @@ export const ServicesSection = (): JSX.Element => {
                 </span>
               </Badge>
 
-              <h2 className="text-center font-bold text-[#1d293b] text-4xl leading-10 [font-family:'Tajawal',sans-serif] [direction:rtl]">
+              <h2 className="text-center font-bold text-[#1D3E4B] text-4xl leading-10 [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 إمبراطورية الأعمال
               </h2>
 
-              <p className="text-center font-normal text-[#64738b] text-base leading-6 max-w-lg [font-family:'Tajawal',sans-serif] [direction:rtl]">
+              <p className="text-center font-normal text-[#8B939A] text-base leading-6 max-w-lg [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 مجموعة من الشركات المتخصصة تعمل بتناغم لتقديم حلول متكاملة
               </p>
             </div>
@@ -155,14 +155,14 @@ export const ServicesSection = (): JSX.Element => {
                       alt="Company icon"
                       src={company.icon}
                     />
-                    <h3 className="w-full text-center font-bold text-[#1d293b] text-xl leading-7 [font-family:'Tajawal',sans-serif]">
+                    <h3 className="w-full text-center font-bold text-[#1D3E4B] text-xl leading-7 [font-family:'Tajawal',sans-serif]">
                       {company.name}
                     </h3>
-                    <p className="w-full text-center font-normal text-[#94a2b8] text-base leading-6 [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                    <p className="w-full text-center font-normal text-[#8B939A] text-base leading-6 [font-family:'Tajawal',sans-serif] [direction:rtl]">
                       {company.description}
                     </p>
                     <div className="w-full flex justify-center mt-2">
-                      <Badge className="h-auto px-3 py-1 bg-[#edecfa] text-[#362a9b] hover:bg-[#edecfa] rounded-full [font-family:'Tajawal',sans-serif]">
+                      <Badge className="h-auto px-3 py-1 bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] rounded-full [font-family:'Tajawal',sans-serif]">
                         <span className="text-xs font-bold leading-4 text-center [direction:rtl]">
                           {company.badge}
                         </span>
@@ -178,5 +178,9 @@ export const ServicesSection = (): JSX.Element => {
     </section>
   );
 };
+
+
+
+
 
 

@@ -4,3 +4,123 @@
 
 [2m٣:١١:٤٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
 3:11:43 PM [express] serving on http://127.0.0.1:5000
+[2m٣:١٧:٣٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Frame.tsx, /src/index.css[22m
+[2m٣:١٨:٤٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:١٨:٥٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:١٩:١٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:١٩:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:١٩:٤٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:١٩:٤٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:٠٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:٠٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:١٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:٢٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:٤٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢٠:٥٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢١:٠٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢١:٠٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢١:٠٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٢١:١٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٤٠:٢١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤١:٥١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٤٧:٣٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٤٧:٥٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٧:٥٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:٠٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:١٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:١٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:٢٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:٢٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:٣٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٨:٣٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٠٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٠٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٠٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٢١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٢٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٣٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٤٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٤٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٤٩:٤٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٣:٥١:٥٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٥٢:٤٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٥٦:٣١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٥٨:٠٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٥٨:١١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٣:٥٨:٢٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٠٨:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ui/button.tsx[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AboutUsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/BusinessCardsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ContactSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/PerformanceStatsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ServicesSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/TestimonialsSection.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Frame.tsx, /src/index.css[22m
+[2m٤:٣١:٤٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٤:٣١:٤٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/button.tsx[22m Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m٤:٣١:٤٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/pages/sections/ContactSection.tsx, /src/pages/sections/MissionVisionSection.tsx, /src/pages/sections/HeroProfileSection.tsx, /src/pages/sections/ServicesSection.tsx[22m
+[2m٤:٣٤:٤٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٤:٣٥:٠٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ui/button.tsx[22m
+[2m٤:٣٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/button.tsx[22m Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m٤:٣٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/pages/sections/ContactSection.tsx, /src/pages/sections/MissionVisionSection.tsx, /src/pages/sections/HeroProfileSection.tsx, /src/pages/sections/ServicesSection.tsx[22m
+[2m٤:٣٥:٢٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Frame.tsx, /src/index.css[22m
+[2m٤:٣٦:٢٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٣٦:٤٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٣٧:٢٠ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/PerformanceStatsSection.tsx, /src/index.css[22m
+[2m٤:٣٧:٣٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ServicesSection.tsx, /src/index.css[22m
+[2m٤:٣٧:٥٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AboutUsSection.tsx, /src/index.css[22m
+[2m٤:٣٨:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/BusinessCardsSection.tsx, /src/index.css[22m
+[2m٤:٣٨:٣٤ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ui/button.tsx[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AboutUsSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/BusinessCardsSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ContactSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/PerformanceStatsSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ServicesSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/TestimonialsSection.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Frame.tsx, /src/index.css[22m
+[2m٤:٤٥:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٤:٤٥:١٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/button.tsx[22m Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m٤:٤٥:١٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/pages/sections/ContactSection.tsx, /src/pages/sections/MissionVisionSection.tsx, /src/pages/sections/HeroProfileSection.tsx, /src/pages/sections/ServicesSection.tsx[22m
+[2m٤:٤٧:١٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٤:٤٧:٣٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ui/button.tsx[22m
+[2m٤:٤٧:٣٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/button.tsx[22m Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m٤:٤٧:٣٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/pages/sections/ContactSection.tsx, /src/pages/sections/MissionVisionSection.tsx, /src/pages/sections/HeroProfileSection.tsx, /src/pages/sections/ServicesSection.tsx[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AboutUsSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/BusinessCardsSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/PerformanceStatsSection.tsx, /src/index.css[22m
+[2m٤:٤٨:٠٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ServicesSection.tsx, /src/index.css[22m
+[2m٤:٤٩:٥٧ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٥٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AchievementsStatsSection.tsx, /src/index.css[22m
+[2m٤:٥٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٥٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٥٥:٠٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/ui/button.tsx[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/AboutUsSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/BusinessCardsSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/HeroProfileSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/ServicesSection.tsx, /src/index.css[22m
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/button.tsx[22m Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m٤:٥٧:١٢ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/NavigationSection.tsx, /src/pages/sections/ContactSection.tsx, /src/pages/sections/MissionVisionSection.tsx, /src/pages/sections/HeroProfileSection.tsx, /src/pages/sections/ServicesSection.tsx[22m
+[2m٤:٥٨:٤٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٥:٠٤:١٣ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٥:٠٤:١٦ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٥:٠٥:١١ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٥:٠٥:١٥ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/sections/MissionVisionSection.tsx, /src/index.css[22m
+[2m٥:١١:٥٩ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m٥:١٢:١٨ م[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m

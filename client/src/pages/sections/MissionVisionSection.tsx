@@ -17,12 +17,12 @@ const achievements = [
 export const MissionVisionSection = (): JSX.Element => {
   return (
     <section className="relative w-full py-24">
-      <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(255,255,255,1)_0%,rgba(238,237,250,0.3)_50%,rgba(255,255,255,1)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(244,245,244,1)_0%,rgba(139,147,154,0.2)_50%,rgba(244,245,244,1)_100%)]" />
 
       <div className="relative container mx-auto px-6 max-w-6xl">
         <div className="flex flex-wrap items-center justify-end gap-16">
           <div className="flex flex-col w-full lg:w-[520px] items-end space-y-6">
-            <Badge className="h-auto bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] px-4 py-2 rounded-full">
+            <Badge className="h-auto bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] px-4 py-2 rounded-full">
               <img className="w-4 h-6" alt="I" src="/figmaAssets/i-458.svg" />
               <span className="[font-family:'Tajawal',sans-serif] font-normal text-sm [direction:rtl]">
                 من أنا
@@ -30,20 +30,20 @@ export const MissionVisionSection = (): JSX.Element => {
             </Badge>
 
             <div className="flex flex-col items-end space-y-0">
-              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#362a9b] text-4xl leading-10 [direction:rtl]">
+              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1D3E4B] text-4xl leading-10 [direction:rtl]">
                 نحو القمة
               </h2>
-              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1d293b] text-4xl leading-10 [direction:rtl]">
+              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1D3E4B] text-4xl leading-10 [direction:rtl]">
                 قصة شغف وإصرار
               </h2>
             </div>
 
-            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
+            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#8B939A] text-base leading-[26px] text-right [direction:rtl]">
               بدأت رحلتي في عالم ريادة الأعمال منذ أكثر من 15 عاما، حيث آمنت
               دائما بأن التكنولوجيا هي المفتاح لتحويل الأحلام إلى واقع ملموس.
             </p>
 
-            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
+            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#8B939A] text-base leading-[26px] text-right [direction:rtl]">
               أسست عدة شركات ناجحة في مجالات التسويق الرقمي والإنتاج الإعلامي
               والحلول التقنية، وأفخر بأنني ساهمت في نمو أكثر من 500 مشروع ناجح
               حول العالم العربي.
@@ -69,7 +69,7 @@ export const MissionVisionSection = (): JSX.Element => {
 
             <Button
               variant="link"
-              className="h-auto p-0 text-[#362a9b] hover:no-underline"
+              className="h-auto p-0 text-[#1D3E4B] hover:no-underline"
             >
               <span className="[font-family:'Tajawal',sans-serif] font-normal text-base leading-6 [direction:rtl]">
                 تعرف على المزيد
@@ -85,7 +85,7 @@ export const MissionVisionSection = (): JSX.Element => {
           <div className="w-full lg:w-[520px] flex flex-col items-end">
             <div className="flex flex-wrap items-start justify-end gap-4">
               <div className="flex flex-col w-[252px] items-end space-y-4 pt-8">
-                <Card className="w-full bg-[#4335c1] border-0 rounded-2xl overflow-hidden">
+                <Card className="w-full bg-[#315C67] border-0 rounded-2xl overflow-hidden">
                   <CardContent className="p-6 relative h-[104px]">
                     <img
                       className="absolute top-[26px] right-6 w-[30px] h-[30px]"
@@ -98,34 +98,34 @@ export const MissionVisionSection = (): JSX.Element => {
                   </CardContent>
                 </Card>
 
-                <Card className="w-full border-0 rounded-2xl overflow-hidden shadow-[0px_20px_25px_-5px_#0000001a,0px_8px_10px_-6px_#0000001a]">
+                <Card className="w-full border-0 rounded-2xl overflow-hidden shadow-[0px_20px_25px_-5px_#10161F1a,0px_8px_10px_-6px_#10161F1a]">
                   <CardContent className="p-0">
                     <img
                       className="w-full h-[315px] object-cover"
                       alt="Profile"
-                      src="/figmaAssets/img-513.png"
+                      src="/figmaAssets/img-1025.png"
                     />
                   </CardContent>
                 </Card>
               </div>
 
               <div className="flex flex-col w-[252px] items-end space-y-4">
-                <Card className="w-full border-0 rounded-2xl overflow-hidden shadow-[0px_20px_25px_-5px_#0000001a,0px_8px_10px_-6px_#0000001a]">
+                <Card className="w-full border-0 rounded-2xl overflow-hidden shadow-[0px_20px_25px_-5px_#10161F1a,0px_8px_10px_-6px_#10161F1a]">
                   <CardContent className="p-0">
                     <img
                       className="w-full h-[315px] object-cover"
                       alt="Profile"
-                      src="/figmaAssets/img-516.png"
+                      src="/figmaAssets/photo_2026-03-07_17-02-48.jpg"
                     />
                   </CardContent>
                 </Card>
 
-                <Card className="w-full bg-[#362a9b] border-0 rounded-2xl">
+                <Card className="w-full bg-[#1D3E4B] border-0 rounded-2xl">
                   <CardContent className="p-6 flex flex-col items-end space-y-1">
                     <h3 className="[font-family:'Tajawal',sans-serif] font-bold text-white text-3xl leading-9 text-right">
                       15+
                     </h3>
-                    <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#d9d5f4] text-sm leading-5 [direction:rtl]">
+                    <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#F4F5F4] text-sm leading-5 [direction:rtl]">
                       سنة من الخبرة
                     </p>
                   </CardContent>
@@ -138,5 +138,10 @@ export const MissionVisionSection = (): JSX.Element => {
     </section>
   );
 };
+
+
+
+
+
 
 

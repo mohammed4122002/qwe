@@ -12,14 +12,14 @@ const navigationItems = [
 export const NavigationSection = (): JSX.Element => {
   return (
     <nav className="w-full py-3 relative">
-      <div className="absolute inset-0 bg-[#fffffff2] shadow-[0px_10px_15px_-3px_#0e17290d,0px_4px_6px_-4px_#0e17290d] backdrop-blur-md backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(12px)_brightness(100%)]" />
+      <div className="absolute inset-0 bg-[#F4F5F4f2] shadow-[0px_10px_15px_-3px_#1D3E4B1a,0px_4px_6px_-4px_#1D3E4B1a] backdrop-blur-md backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(12px)_brightness(100%)]" />
 
       <div className="relative px-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <div className="flex items-center justify-between h-12">
             <div className="flex items-center justify-end gap-3">
-              <Button className="h-10 px-6 py-2.5 bg-[#4335c1] rounded-xl overflow-hidden shadow-[0px_10px_15px_-3px_#4335c240,0px_4px_6px_-4px_#4335c240] hover:bg-[#4335c1]/90 relative">
-                <div className="absolute top-0 left-[-141px] w-[141px] h-10 bg-[linear-gradient(90deg,rgba(0,0,0,0)_0%,rgba(255,255,255,0.2)_50%,rgba(0,0,0,0)_100%)]" />
+              <Button className="h-10 px-6 py-2.5 bg-[#315C67] rounded-xl overflow-hidden shadow-[0px_10px_15px_-3px_#1D3E4B40,0px_4px_6px_-4px_#1D3E4B40] hover:bg-[#315C67]/90 relative">
+                <div className="absolute top-0 left-[-141px] w-[141px] h-10 bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(244,245,244,0.2)_50%,rgba(16,22,31,0)_100%)]" />
                 <div className="flex items-center justify-end gap-2">
                   <img
                     className="w-[14.02px] h-5"
@@ -32,7 +32,7 @@ export const NavigationSection = (): JSX.Element => {
                 </div>
               </Button>
 
-              <Separator orientation="vertical" className="h-8 bg-[#e2e7f0]" />
+              <Separator orientation="vertical" className="h-8 bg-[#F4F5F4]" />
 
               <img
                 className="w-[76px] h-9"
@@ -52,7 +52,7 @@ export const NavigationSection = (): JSX.Element => {
                     {item.label}
                   </span>
                   <div
-                    className={`absolute top-8 ${item.leftPosition} w-px h-0.5 bg-[#0fb981] rounded-full`}
+                    className={`absolute top-8 ${item.leftPosition} w-px h-0.5 bg-[#315C67] rounded-full`}
                   />
                 </Button>
               ))}
@@ -61,12 +61,12 @@ export const NavigationSection = (): JSX.Element => {
             <div className="flex items-center justify-end gap-3">
               <div className="flex flex-col items-end">
                 <div className="flex items-center justify-end h-7">
-                  <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1d293b] text-lg tracking-[0] leading-7 whitespace-nowrap [direction:rtl]">
+                  <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1D3E4B] text-lg tracking-[0] leading-7 whitespace-nowrap [direction:rtl]">
                     محمود الأغواني
                   </h2>
                 </div>
                 <div className="flex items-center justify-end h-4">
-                  <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#94a2b8] text-xs text-right tracking-[0] leading-4 whitespace-nowrap">
+                  <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#8B939A] text-xs text-right tracking-[0] leading-4 whitespace-nowrap">
                     CEO &amp; Founder
                   </p>
                 </div>
@@ -78,5 +78,9 @@ export const NavigationSection = (): JSX.Element => {
     </nav>
   );
 };
+
+
+
+
 
 

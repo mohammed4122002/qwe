@@ -33,7 +33,7 @@ export const TestimonialsSection = (): JSX.Element => {
       <div className="container max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
           <div className="flex flex-col items-center gap-4 text-center max-w-4xl">
-            <Badge className="bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] h-auto px-4 py-2 gap-2 rounded-full">
+            <Badge className="bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] h-auto px-4 py-2 gap-2 rounded-full">
               <img
                 className="w-4 h-6"
                 alt="Icon"
@@ -44,11 +44,11 @@ export const TestimonialsSection = (): JSX.Element => {
               </span>
             </Badge>
 
-            <h2 className="text-4xl font-bold text-[#1d293b] [font-family:'Tajawal',sans-serif]">
+            <h2 className="text-4xl font-bold text-[#1D3E4B] [font-family:'Tajawal',sans-serif]">
               ماذا يقولون عني
             </h2>
 
-            <p className="text-base font-normal text-[#64738b] max-w-lg [font-family:'Tajawal',sans-serif]">
+            <p className="text-base font-normal text-[#8B939A] max-w-lg [font-family:'Tajawal',sans-serif]">
               شهادات من شركاء وعملاء عملت معهم على مدار السنوات
             </p>
           </div>
@@ -79,10 +79,10 @@ export const TestimonialsSection = (): JSX.Element => {
 
                   <div className="flex items-center justify-end gap-4 pt-6 border-t border-slate-100">
                     <div className="flex flex-col items-end gap-1">
-                      <p className="text-base font-normal text-[#1d293b] [font-family:'Tajawal',sans-serif]">
+                      <p className="text-base font-normal text-[#1D3E4B] [font-family:'Tajawal',sans-serif]">
                         {testimonial.name}
                       </p>
-                      <p className="text-sm font-normal text-[#94a2b8] [font-family:'Tajawal',sans-serif]">
+                      <p className="text-sm font-normal text-[#8B939A] [font-family:'Tajawal',sans-serif]">
                         {testimonial.title}
                       </p>
                     </div>
@@ -101,5 +101,7 @@ export const TestimonialsSection = (): JSX.Element => {
     </section>
   );
 };
+
+
 
 

@@ -28,7 +28,7 @@ export const PerformanceStatsSection = (): JSX.Element => {
   return (
     <section className="relative w-full overflow-hidden">
       <div className="relative w-full">
-        <div className="relative w-full bg-[linear-gradient(150deg,rgba(15,23,42,1)_0%,rgba(30,41,59,1)_50%,rgba(15,23,42,1)_100%)] py-20">
+        <div className="relative w-full bg-[linear-gradient(150deg,rgba(16,22,31,1)_0%,rgba(29,62,75,1)_50%,rgba(49,92,103,1)_100%)] py-20">
           <div className="container mx-auto max-w-4xl px-6">
             <Card className="border-0 bg-transparent shadow-none">
               <CardContent className="flex flex-col items-end space-y-12 p-0">
@@ -52,12 +52,12 @@ export const PerformanceStatsSection = (): JSX.Element => {
                     <p className="font-normal text-white text-lg tracking-[0] leading-7 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       محمود الأغواني
                     </p>
-                    <p className="font-normal text-[#d9d5f4] text-sm tracking-[0] leading-5 [direction:rtl] [font-family:'Tajawal',sans-serif]">
+                    <p className="font-normal text-[#F4F5F4] text-sm tracking-[0] leading-5 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       المؤسس والرئيس التنفيذي
                     </p>
                   </div>
 
-                  <Avatar className="h-16 w-16 border-2 border-[#0b41f5]">
+                  <Avatar className="h-16 w-16 border-2 border-[#315C67]">
                     <AvatarImage
                       src="/figmaAssets/img-1025.png"
                       alt="محمود الأغواني"
@@ -70,19 +70,22 @@ export const PerformanceStatsSection = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="absolute top-[-300px] left-[1140px] w-[600px] h-[600px] bg-[#4335c233] rounded-full blur-[60px] pointer-events-none" />
+        <div className="absolute top-[-300px] left-[1140px] w-[600px] h-[600px] bg-[#1D3E4B33] rounded-full blur-[60px] pointer-events-none" />
 
-        <div className="absolute top-[1104px] left-[-250px] w-[500px] h-[500px] bg-[#4335c226] rounded-full blur-[50px] pointer-events-none" />
+        <div className="absolute top-[1104px] left-[-250px] w-[500px] h-[500px] bg-[#1D3E4B26] rounded-full blur-[50px] pointer-events-none" />
 
         {decorativeDots.map((dot, index) => (
           <div
             key={`dot-${index}`}
-            className={`absolute w-1 h-1 bg-[#4335c24c] rounded-full pointer-events-none ${dot.top} ${dot.left}`}
+            className={`absolute w-1 h-1 bg-[#1D3E4B4c] rounded-full pointer-events-none ${dot.top} ${dot.left}`}
           />
         ))}
       </div>
     </section>
   );
 };
+
+
+
 
 
