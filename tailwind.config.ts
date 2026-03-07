@@ -48,6 +48,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "Tajawal",
           "ui-sans-serif",
           "system-ui",
           "sans-serif",

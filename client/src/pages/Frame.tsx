@@ -11,8 +11,14 @@ import { TestimonialsSection } from "./sections/TestimonialsSection";
 
 export const Frame = (): JSX.Element => {
   return (
-    <div className="bg-white w-full min-w-[1440px] relative">
-      <NavigationSection />
+    <div className="bg-white w-full relative overflow-x-hidden">
+      <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+        <div className="ambient-orb ambient-orb-primary" />
+        <div className="ambient-orb ambient-orb-secondary" />
+      </div>
+      <div className="relative z-20">
+        <NavigationSection />
+      </div>
       <HeroProfileSection />
       <AchievementsStatsSection />
       <MissionVisionSection />
@@ -23,7 +29,7 @@ export const Frame = (): JSX.Element => {
       <PerformanceStatsSection />
       <ContactSection />
 
-      <footer className="w-full bg-[#edecfa4c] border-t border-slate-100">
+      <footer className="relative z-10 w-full bg-[#edecfa4c] border-t border-slate-100">
         <div className="flex justify-center px-36 py-12">
           <div className="flex w-full max-w-6xl items-center justify-between px-6">
             <img
@@ -32,7 +38,7 @@ export const Frame = (): JSX.Element => {
               src="/figmaAssets/div-1088.svg"
             />
             <div className="flex items-center">
-              <p className="font-normal text-[#94a2b8] text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl] [font-family:'Almarai',Helvetica]">
+              <p className="font-normal text-[#94a2b8] text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl] [font-family:'Tajawal',sans-serif]">
                 © 2026 محمود الأغواني. جميع الحقوق محفوظة
               </p>
             </div>

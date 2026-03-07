@@ -1,7 +1,8 @@
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+﻿import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import type { CSSProperties } from "react";
 
 const statsCards = [
   {
@@ -50,13 +51,19 @@ const clientAvatars = [
   "/figmaAssets/margin-wrap.svg",
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const HeroProfileSection = (): JSX.Element => {
   return (
     <section className="relative w-full py-0">
       <div className="container mx-auto px-20 max-w-screen-xl">
         <div className="relative w-full">
           <div className="grid grid-cols-1 lg:grid-cols-[272px_1fr_485px] gap-8 items-start py-[74px]">
-            <aside className="flex flex-col gap-4">
+            <aside
+              className="flex flex-col gap-4 animate-fade-up opacity-0"
+              style={fadeDelay(0.1)}
+            >
               {statsCards.map((stat, index) => (
                 <Card
                   key={index}
@@ -71,14 +78,14 @@ export const HeroProfileSection = (): JSX.Element => {
                       />
                       <div className="flex flex-col items-end">
                         <div className="flex items-start justify-end gap-2">
-                          <span className="text-sm text-[#64738b] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                          <span className="text-sm text-[#64738b] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                             {stat.label}
                           </span>
-                          <span className="text-2xl text-[#1d293b] [font-family:'Almarai',Helvetica]">
+                          <span className="text-2xl text-[#1d293b] [font-family:'Tajawal',sans-serif]">
                             {stat.value}
                           </span>
                         </div>
-                        <span className="text-xs text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                        <span className="text-xs text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                           {stat.description}
                         </span>
                       </div>
@@ -92,10 +99,10 @@ export const HeroProfileSection = (): JSX.Element => {
                 <CardContent className="p-[17px] space-y-3">
                   <div className="flex items-center justify-end gap-3">
                     <div className="flex flex-col items-end">
-                      <span className="text-sm text-[#1d293b] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                      <span className="text-sm text-[#1d293b] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                         استشارة مجانية
                       </span>
-                      <span className="text-xs text-[#362a9b] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                      <span className="text-xs text-[#362a9b] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                         احجز موعدك الآن
                       </span>
                     </div>
@@ -105,21 +112,34 @@ export const HeroProfileSection = (): JSX.Element => {
                       src="/figmaAssets/div-114.svg"
                     />
                   </div>
-                  <Button className="w-full h-10 bg-[#362a9b] hover:bg-[#362a9b]/90 text-white rounded-xl [font-family:'Almarai',Helvetica] [direction:rtl]">
+                  <Button className="w-full h-10 bg-[#362a9b] hover:bg-[#362a9b]/90 text-white rounded-xl [font-family:'Tajawal',sans-serif] [direction:rtl]">
                     احجز الآن
                   </Button>
                 </CardContent>
               </Card>
             </aside>
 
-            <div className="relative flex justify-center items-start">
+            <div
+              className="relative flex justify-center items-start animate-fade-up opacity-0"
+              style={fadeDelay(0.2)}
+            >
               <div className="relative">
+                <div className="hero-orbit-shell hero-orbit-ring hero-orbit-ring-main" />
+                <div className="hero-orbit-shell hero-orbit-ring hero-orbit-ring-alt" />
+                <div className="hero-orbit-shell hero-orbit-dots hero-orbit-dots-slow">
+                  <span className="hero-orbit-dot hero-orbit-dot-a" />
+                  <span className="hero-orbit-dot hero-orbit-dot-b" />
+                </div>
+                <div className="hero-orbit-shell hero-orbit-dots hero-orbit-dots-fast">
+                  <span className="hero-orbit-dot hero-orbit-dot-c" />
+                  <span className="hero-orbit-dot hero-orbit-dot-d" />
+                </div>
                 <img
-                  className="w-[426px] h-[561px]"
+                  className="relative z-10 w-[426px] h-[561px]"
                   alt="Profile"
                   src="/figmaAssets/div-125.svg"
                 />
-                <Badge className="absolute top-[18px] right-[-128px] h-[42px] px-[21px] py-[11px] bg-[#edecfa] border-[#d9d5f4] rounded-full flex items-center gap-3 [font-family:'Almarai',Helvetica]">
+                <Badge className="absolute z-20 top-[18px] right-[-128px] h-[42px] px-[21px] py-[11px] bg-[#edecfa] border-[#d9d5f4] rounded-full flex items-center gap-3 [font-family:'Tajawal',sans-serif]">
                   <div className="w-2 h-2 bg-[#4335c1] rounded-full" />
                   <span className="text-sm text-[#282073] [direction:rtl]">
                     قائد أعمال معتمد دوليا
@@ -132,14 +152,14 @@ export const HeroProfileSection = (): JSX.Element => {
                 </Badge>
               </div>
 
-              <Card className="absolute top-[296px] right-[-233px] w-[147px] bg-white rounded-2xl border-slate-100 shadow-[0px_20px_25px_-5px_#e2e7f080,0px_8px_10px_-6px_#e2e7f080] overflow-hidden">
-                <CardContent className="p-[17px]">
+              <Card className="absolute z-20 top-[296px] right-[-30px] w-[150px] bg-white rounded-2xl border-slate-100 shadow-[0px_20px_25px_-5px_#e2e7f080,0px_8px_10px_-6px_#e2e7f080] overflow-hidden">
+                <CardContent className="p-[6px]">
                   <div className="flex items-center justify-end gap-3">
                     <div className="flex flex-col items-end">
-                      <span className="text-2xl text-[#1d293b] [font-family:'Almarai',Helvetica]">
+                      <span className="text-2xl text-[#1d293b] [font-family:'Tajawal',sans-serif]">
                         20+
                       </span>
-                      <span className="text-xs text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                      <span className="text-xs text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                         جائزة دولية
                       </span>
                     </div>
@@ -153,8 +173,11 @@ export const HeroProfileSection = (): JSX.Element => {
               </Card>
             </div>
 
-            <div className="flex flex-col items-end space-y-6">
-              <Badge className="h-[42px] px-[17px] py-[9px] bg-[#d9d5f4] border-[#b3ace8] rounded-full [font-family:'Almarai',Helvetica]">
+            <div
+              className="flex flex-col items-end space-y-6 animate-fade-up opacity-0"
+              style={fadeDelay(0.28)}
+            >
+              <Badge className="h-[42px] px-[17px] py-[9px] bg-[#d9d5f4] border-[#b3ace8] rounded-full [font-family:'Tajawal',sans-serif]">
                 <span className="text-sm text-[#282073] [direction:rtl]">
                   المؤسس والرئيس التنفيذي
                 </span>
@@ -166,16 +189,16 @@ export const HeroProfileSection = (): JSX.Element => {
               </Badge>
 
               <div className="flex flex-col items-end space-y-4">
-                <div className="flex items-start justify-end">
-                  <h1 className="text-7xl leading-[72px] bg-[linear-gradient(270deg,rgba(103,91,211,1)_0%,rgba(54,42,155,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <div className="flex items-start justify-end z-1000000 mb-1">
+                  <h1 className="text-7xl leading-[72px] bg-[linear-gradient(270deg,rgba(103,91,211,1)_0%,rgba(54,42,155,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                     الأغواني
                   </h1>
-                  <h1 className="text-7xl leading-[72px] text-[#1d293b] [font-family:'Almarai',Helvetica] [direction:rtl] mr-2">
+                  <h1 className="text-7xl leading-[72px] text-[#1d293b] [font-family:'Tajawal',sans-serif] [direction:rtl] mr-2">
                     محمود
                   </h1>
                 </div>
 
-                <p className="max-w-md text-xl leading-[32.5px] text-[#64738b] [font-family:'Almarai',Helvetica] [direction:rtl] text-right">
+                <p className="max-w-md text-xl leading-[32.5px] text-[#64738b] [font-family:'Tajawal',sans-serif] [direction:rtl] text-right">
                   قائد رقمي يحول الأفكار إلى إمبراطوريات ناجحة عبر الابتكار
                   والرؤية الاستراتيجية
                 </p>
@@ -184,7 +207,7 @@ export const HeroProfileSection = (): JSX.Element => {
               <div className="flex flex-wrap items-start justify-end gap-4">
                 <Button
                   variant="outline"
-                  className="h-auto px-[33px] py-[17px] bg-slate-100 border-[#e2e7f0] rounded-xl [font-family:'Almarai',Helvetica] [direction:rtl]"
+                  className="h-auto px-[33px] py-[17px] bg-slate-100 border-[#e2e7f0] rounded-xl [font-family:'Tajawal',sans-serif] [direction:rtl]"
                 >
                   <span className="text-base text-[#334054]">اكتشف قصتي</span>
                   <img
@@ -194,7 +217,7 @@ export const HeroProfileSection = (): JSX.Element => {
                   />
                 </Button>
 
-                <Button className="h-auto px-8 py-4 bg-[#362a9b] hover:bg-[#362a9b]/90 rounded-xl shadow-[0px_10px_15px_-3px_#4234c24c,0px_4px_6px_-4px_#4234c24c] overflow-hidden relative [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <Button className="h-auto px-8 py-4 bg-[#362a9b] hover:bg-[#362a9b]/90 rounded-xl shadow-[0px_10px_15px_-3px_#4234c24c,0px_4px_6px_-4px_#4234c24c] overflow-hidden relative [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   <div className="absolute top-0 left-[-169px] w-[169px] h-[58px] bg-[linear-gradient(90deg,rgba(0,0,0,0)_0%,rgba(255,255,255,0.2)_50%,rgba(0,0,0,0)_100%)]" />
                   <img
                     className="w-4 h-6 ml-2"
@@ -214,14 +237,17 @@ export const HeroProfileSection = (): JSX.Element => {
                     src={icon}
                   />
                 ))}
-                <span className="text-sm text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <span className="text-sm text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   تابعني:
                 </span>
               </div>
             </div>
           </div>
 
-          <div className="border-t border-slate-100 pt-5">
+          <div
+            className="border-t border-slate-100 pt-5 mb-40 animate-fade-up opacity-0"
+            style={fadeDelay(0.35)}
+          >
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <img
@@ -229,7 +255,7 @@ export const HeroProfileSection = (): JSX.Element => {
                   alt="Arrow"
                   src="/figmaAssets/div-198.svg"
                 />
-                <span className="text-sm text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <span className="text-sm text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   اكتشف المزيد
                 </span>
               </div>
@@ -240,7 +266,7 @@ export const HeroProfileSection = (): JSX.Element => {
                     key={index}
                     className="flex items-center gap-2 cursor-pointer"
                   >
-                    <span className="text-sm text-[#94a2b8] [font-family:'Almarai',Helvetica]">
+                    <span className="text-sm text-[#94a2b8] [font-family:'Tajawal',sans-serif]">
                       {company.name}
                     </span>
                     <img
@@ -263,7 +289,7 @@ export const HeroProfileSection = (): JSX.Element => {
                     </Avatar>
                   ))}
                   <div className="flex items-center justify-center w-10 h-10 -ml-2 bg-[#362a9b] rounded-full border-2 border-white">
-                    <span className="text-xs font-bold text-white [font-family:'Almarai',Helvetica]">
+                    <span className="text-xs font-bold text-white [font-family:'Tajawal',sans-serif]">
                       +196
                     </span>
                   </div>
@@ -271,10 +297,10 @@ export const HeroProfileSection = (): JSX.Element => {
               </div>
 
               <div className="flex flex-col items-end">
-                <span className="text-base text-[#1d293b] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <span className="text-base text-[#1d293b] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   +200 عميل سعيد
                 </span>
-                <span className="text-sm text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <span className="text-sm text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   يثقون بخدماتنا
                 </span>
               </div>
@@ -283,14 +309,17 @@ export const HeroProfileSection = (): JSX.Element => {
         </div>
       </div>
 
-      <Card className="absolute top-[60px] left-[402px] w-[113px] bg-white rounded-2xl border-slate-100 shadow-[0px_20px_25px_-5px_#e2e7f080,0px_8px_10px_-6px_#e2e7f080] overflow-hidden">
-        <CardContent className="p-[13px]">
+      <Card
+        className="absolute top-[200px] left-[670px] w-[113px] bg-white rounded-2xl border-slate-100 shadow-[0px_20px_25px_-5px_#e2e7f080,0px_8px_10px_-6px_#e2e7f080] overflow-hidden animate-fade-up opacity-0"
+        style={fadeDelay(0.24)}
+      >
+        <CardContent className="p-[6px]">
           <div className="flex items-center justify-end gap-2">
             <div className="flex flex-col items-end">
-              <span className="text-xs text-[#94a2b8] [font-family:'Almarai',Helvetica] [direction:rtl]">
+              <span className="text-xs text-[#94a2b8] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 قائد
               </span>
-              <span className="text-sm font-bold text-[#1d293b] [font-family:'Almarai',Helvetica] [direction:rtl]">
+              <span className="text-sm font-bold text-[#1d293b] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 معتمد
               </span>
             </div>

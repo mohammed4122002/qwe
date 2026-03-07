@@ -1,0 +1,638 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v22.19.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\ملف الشخصي\Untitled-Frame-4-1\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:D:\ملف الشخصي\Untitled-Frame-4-1\.npm-cache\_logs\2026-03-07T13_04_51_558Z-
+10 verbose logfile D:\ملف الشخصي\Untitled-Frame-4-1\.npm-cache\_logs\2026-03-07T13_04_51_558Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest cross-env@^7.0.3
+15 silly packumentCache full:https://registry.npmjs.org/cross-env cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/cross-env 1883ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/cross-env set size:undefined disposed:false
+19 silly placeDep ROOT cross-env@7.0.3 OK for: rest-express@1.0.0 want: ^7.0.3
+20 silly reify moves {}
+21 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi
+22 silly reify mark deleted [
+22 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+22 silly reify ]
+23 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\core
+24 silly reify mark deleted [
+24 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\core'
+24 silly reify ]
+25 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\runtime
+26 silly reify mark deleted [
+26 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\runtime'
+26 silly reify ]
+27 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\wasi-threads
+28 silly reify mark deleted [
+28 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\wasi-threads'
+28 silly reify ]
+29 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+30 silly reify mark deleted [
+30 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+30 silly reify ]
+31 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@tybys\wasm-util
+32 silly reify mark deleted [
+32 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@tybys\\wasm-util'
+32 silly reify ]
+33 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib
+34 silly reify mark deleted [
+34 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\tslib'
+34 silly reify ]
+35 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-win32-arm64-msvc
+36 silly reify mark deleted [
+36 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-win32-arm64-msvc'
+36 silly reify ]
+37 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-x64-musl
+38 silly reify mark deleted [
+38 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-musl'
+38 silly reify ]
+39 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-x64-gnu
+40 silly reify mark deleted [
+40 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-gnu'
+40 silly reify ]
+41 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm64-musl
+42 silly reify mark deleted [
+42 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-musl'
+42 silly reify ]
+43 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm64-gnu
+44 silly reify mark deleted [
+44 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-gnu'
+44 silly reify ]
+45 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm-gnueabihf
+46 silly reify mark deleted [
+46 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm-gnueabihf'
+46 silly reify ]
+47 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-freebsd-x64
+48 silly reify mark deleted [
+48 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-freebsd-x64'
+48 silly reify ]
+49 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-darwin-x64
+50 silly reify mark deleted [
+50 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-x64'
+50 silly reify ]
+51 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-darwin-arm64
+52 silly reify mark deleted [
+52 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-arm64'
+52 silly reify ]
+53 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-android-arm64
+54 silly reify mark deleted [
+54 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-android-arm64'
+54 silly reify ]
+55 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\fsevents
+56 silly reify mark deleted [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\fsevents' ]
+57 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+58 silly reify mark deleted [
+58 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-x64-musl
+60 silly reify mark deleted [
+60 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-x64-gnu
+62 silly reify mark deleted [
+62 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm64-musl
+64 silly reify mark deleted [
+64 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+66 silly reify mark deleted [
+66 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+66 silly reify ]
+67 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+68 silly reify mark deleted [
+68 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+68 silly reify ]
+69 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-freebsd-x64
+70 silly reify mark deleted [
+70 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-darwin-x64
+72 silly reify mark deleted [
+72 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-darwin-arm64
+74 silly reify mark deleted [
+74 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-android-arm64
+76 silly reify mark deleted [
+76 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-android-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-win32-ia32-msvc
+78 silly reify mark deleted [
+78 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+78 silly reify ]
+79 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-win32-arm64-msvc
+80 silly reify mark deleted [
+80 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+80 silly reify ]
+81 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-openharmony-arm64
+82 silly reify mark deleted [
+82 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-openharmony-arm64'
+82 silly reify ]
+83 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-x64-musl
+84 silly reify mark deleted [
+84 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-musl'
+84 silly reify ]
+85 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-x64-gnu
+86 silly reify mark deleted [
+86 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+86 silly reify ]
+87 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-s390x-gnu
+88 silly reify mark deleted [
+88 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+88 silly reify ]
+89 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-riscv64-musl
+90 silly reify mark deleted [
+90 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+90 silly reify ]
+91 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-riscv64-gnu
+92 silly reify mark deleted [
+92 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+92 silly reify ]
+93 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-ppc64-gnu
+94 silly reify mark deleted [
+94 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+94 silly reify ]
+95 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-loong64-gnu
+96 silly reify mark deleted [
+96 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+96 silly reify ]
+97 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm64-musl
+98 silly reify mark deleted [
+98 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+98 silly reify ]
+99 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm64-gnu
+100 silly reify mark deleted [
+100 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+100 silly reify ]
+101 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm-musleabihf
+102 silly reify mark deleted [
+102 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+102 silly reify ]
+103 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm-gnueabihf
+104 silly reify mark deleted [
+104 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+104 silly reify ]
+105 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-freebsd-x64
+106 silly reify mark deleted [
+106 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-x64'
+106 silly reify ]
+107 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-freebsd-arm64
+108 silly reify mark deleted [
+108 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-arm64'
+108 silly reify ]
+109 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-darwin-x64
+110 silly reify mark deleted [
+110 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-x64'
+110 silly reify ]
+111 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-darwin-arm64
+112 silly reify mark deleted [
+112 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-arm64'
+112 silly reify ]
+113 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-android-arm64
+114 silly reify mark deleted [
+114 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm64'
+114 silly reify ]
+115 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-android-arm-eabi
+116 silly reify mark deleted [
+116 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm-eabi'
+116 silly reify ]
+117 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\win32-ia32
+118 silly reify mark deleted [
+118 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-ia32'
+118 silly reify ]
+119 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\win32-arm64
+120 silly reify mark deleted [
+120 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-arm64'
+120 silly reify ]
+121 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\sunos-x64
+122 silly reify mark deleted [
+122 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\sunos-x64'
+122 silly reify ]
+123 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openharmony-arm64
+124 silly reify mark deleted [
+124 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openharmony-arm64'
+124 silly reify ]
+125 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openbsd-x64
+126 silly reify mark deleted [
+126 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-x64'
+126 silly reify ]
+127 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openbsd-arm64
+128 silly reify mark deleted [
+128 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-arm64'
+128 silly reify ]
+129 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\netbsd-x64
+130 silly reify mark deleted [
+130 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-x64'
+130 silly reify ]
+131 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\netbsd-arm64
+132 silly reify mark deleted [
+132 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-arm64'
+132 silly reify ]
+133 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-x64
+134 silly reify mark deleted [
+134 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-x64'
+134 silly reify ]
+135 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-s390x
+136 silly reify mark deleted [
+136 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-s390x'
+136 silly reify ]
+137 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-riscv64
+138 silly reify mark deleted [
+138 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-riscv64'
+138 silly reify ]
+139 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-ppc64
+140 silly reify mark deleted [
+140 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ppc64'
+140 silly reify ]
+141 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-mips64el
+142 silly reify mark deleted [
+142 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-mips64el'
+142 silly reify ]
+143 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-loong64
+144 silly reify mark deleted [
+144 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-loong64'
+144 silly reify ]
+145 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-ia32
+146 silly reify mark deleted [
+146 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ia32'
+146 silly reify ]
+147 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-arm64
+148 silly reify mark deleted [
+148 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm64'
+148 silly reify ]
+149 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-arm
+150 silly reify mark deleted [
+150 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm'
+150 silly reify ]
+151 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\freebsd-x64
+152 silly reify mark deleted [
+152 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-x64'
+152 silly reify ]
+153 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\freebsd-arm64
+154 silly reify mark deleted [
+154 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-arm64'
+154 silly reify ]
+155 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\darwin-x64
+156 silly reify mark deleted [
+156 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-x64'
+156 silly reify ]
+157 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\darwin-arm64
+158 silly reify mark deleted [
+158 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-arm64'
+158 silly reify ]
+159 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-x64
+160 silly reify mark deleted [
+160 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-x64'
+160 silly reify ]
+161 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-arm64
+162 silly reify mark deleted [
+162 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm64'
+162 silly reify ]
+163 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-arm
+164 silly reify mark deleted [
+164 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm'
+164 silly reify ]
+165 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\aix-ppc64
+166 silly reify mark deleted [
+166 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\aix-ppc64'
+166 silly reify ]
+167 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\win32-ia32
+168 silly reify mark deleted [
+168 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\win32-ia32'
+168 silly reify ]
+169 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\win32-arm64
+170 silly reify mark deleted [
+170 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\win32-arm64'
+170 silly reify ]
+171 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\sunos-x64
+172 silly reify mark deleted [
+172 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\sunos-x64'
+172 silly reify ]
+173 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openharmony-arm64
+174 silly reify mark deleted [
+174 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openharmony-arm64'
+174 silly reify ]
+175 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openbsd-x64
+176 silly reify mark deleted [
+176 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openbsd-x64'
+176 silly reify ]
+177 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openbsd-arm64
+178 silly reify mark deleted [
+178 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openbsd-arm64'
+178 silly reify ]
+179 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\netbsd-x64
+180 silly reify mark deleted [
+180 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\netbsd-x64'
+180 silly reify ]
+181 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\netbsd-arm64
+182 silly reify mark deleted [
+182 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\netbsd-arm64'
+182 silly reify ]
+183 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-x64
+184 silly reify mark deleted [
+184 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-x64'
+184 silly reify ]
+185 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-s390x
+186 silly reify mark deleted [
+186 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-s390x'
+186 silly reify ]
+187 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-riscv64
+188 silly reify mark deleted [
+188 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-riscv64'
+188 silly reify ]
+189 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-ppc64
+190 silly reify mark deleted [
+190 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-ppc64'
+190 silly reify ]
+191 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-mips64el
+192 silly reify mark deleted [
+192 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-mips64el'
+192 silly reify ]
+193 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-loong64
+194 silly reify mark deleted [
+194 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-loong64'
+194 silly reify ]
+195 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-ia32
+196 silly reify mark deleted [
+196 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-ia32'
+196 silly reify ]
+197 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-arm64
+198 silly reify mark deleted [
+198 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-arm64'
+198 silly reify ]
+199 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-arm
+200 silly reify mark deleted [
+200 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-arm'
+200 silly reify ]
+201 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\freebsd-x64
+202 silly reify mark deleted [
+202 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\freebsd-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\freebsd-arm64
+204 silly reify mark deleted [
+204 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\freebsd-arm64'
+204 silly reify ]
+205 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\darwin-x64
+206 silly reify mark deleted [
+206 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\darwin-x64'
+206 silly reify ]
+207 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\darwin-arm64
+208 silly reify mark deleted [
+208 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\darwin-arm64'
+208 silly reify ]
+209 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-x64
+210 silly reify mark deleted [
+210 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-x64'
+210 silly reify ]
+211 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-arm64
+212 silly reify mark deleted [
+212 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-arm64'
+212 silly reify ]
+213 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-arm
+214 silly reify mark deleted [
+214 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-arm'
+214 silly reify ]
+215 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\aix-ppc64
+216 silly reify mark deleted [
+216 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\aix-ppc64'
+216 silly reify ]
+217 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\win32-ia32
+218 silly reify mark deleted [
+218 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\win32-ia32'
+218 silly reify ]
+219 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\win32-arm64
+220 silly reify mark deleted [
+220 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\win32-arm64'
+220 silly reify ]
+221 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\sunos-x64
+222 silly reify mark deleted [
+222 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\sunos-x64'
+222 silly reify ]
+223 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openharmony-arm64
+224 silly reify mark deleted [
+224 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openharmony-arm64'
+224 silly reify ]
+225 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openbsd-x64
+226 silly reify mark deleted [
+226 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openbsd-x64'
+226 silly reify ]
+227 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openbsd-arm64
+228 silly reify mark deleted [
+228 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openbsd-arm64'
+228 silly reify ]
+229 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\netbsd-x64
+230 silly reify mark deleted [
+230 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\netbsd-x64'
+230 silly reify ]
+231 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\netbsd-arm64
+232 silly reify mark deleted [
+232 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\netbsd-arm64'
+232 silly reify ]
+233 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-x64
+234 silly reify mark deleted [
+234 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-x64'
+234 silly reify ]
+235 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-s390x
+236 silly reify mark deleted [
+236 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-s390x'
+236 silly reify ]
+237 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-riscv64
+238 silly reify mark deleted [
+238 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-riscv64'
+238 silly reify ]
+239 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-ppc64
+240 silly reify mark deleted [
+240 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-ppc64'
+240 silly reify ]
+241 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-mips64el
+242 silly reify mark deleted [
+242 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-mips64el'
+242 silly reify ]
+243 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-loong64
+244 silly reify mark deleted [
+244 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-loong64'
+244 silly reify ]
+245 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-ia32
+246 silly reify mark deleted [
+246 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-ia32'
+246 silly reify ]
+247 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-arm64
+248 silly reify mark deleted [
+248 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-arm64'
+248 silly reify ]
+249 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-arm
+250 silly reify mark deleted [
+250 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-arm'
+250 silly reify ]
+251 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\freebsd-x64
+252 silly reify mark deleted [
+252 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\freebsd-x64'
+252 silly reify ]
+253 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\freebsd-arm64
+254 silly reify mark deleted [
+254 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\freebsd-arm64'
+254 silly reify ]
+255 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\darwin-x64
+256 silly reify mark deleted [
+256 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\darwin-x64'
+256 silly reify ]
+257 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\darwin-arm64
+258 silly reify mark deleted [
+258 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\darwin-arm64'
+258 silly reify ]
+259 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-x64
+260 silly reify mark deleted [
+260 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-x64'
+260 silly reify ]
+261 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-arm64
+262 silly reify mark deleted [
+262 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-arm64'
+262 silly reify ]
+263 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-arm
+264 silly reify mark deleted [
+264 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-arm'
+264 silly reify ]
+265 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\aix-ppc64
+266 silly reify mark deleted [
+266 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\aix-ppc64'
+266 silly reify ]
+267 http cache cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 1ms (cache hit)
+268 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz. Extracting by manifest.
+269 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 223ms (cache miss)
+270 silly ADD node_modules/cross-env
+271 silly ADD node_modules/lightningcss-win32-arm64-msvc
+272 silly ADD node_modules/lightningcss-linux-x64-musl
+273 silly ADD node_modules/lightningcss-linux-x64-gnu
+274 silly ADD node_modules/lightningcss-linux-arm64-musl
+275 silly ADD node_modules/lightningcss-linux-arm64-gnu
+276 silly ADD node_modules/lightningcss-linux-arm-gnueabihf
+277 silly ADD node_modules/lightningcss-freebsd-x64
+278 silly ADD node_modules/lightningcss-darwin-x64
+279 silly ADD node_modules/lightningcss-darwin-arm64
+280 silly ADD node_modules/lightningcss-android-arm64
+281 silly ADD node_modules/fsevents
+282 silly ADD node_modules/@tailwindcss/oxide-win32-arm64-msvc
+283 silly ADD node_modules/@tailwindcss/oxide-wasm32-wasi
+284 silly ADD node_modules/@tailwindcss/oxide-linux-x64-musl
+285 silly ADD node_modules/@tailwindcss/oxide-linux-x64-gnu
+286 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-musl
+287 silly ADD node_modules/@tailwindcss/oxide-linux-arm64-gnu
+288 silly ADD node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+289 silly ADD node_modules/@tailwindcss/oxide-freebsd-x64
+290 silly ADD node_modules/@tailwindcss/oxide-darwin-x64
+291 silly ADD node_modules/@tailwindcss/oxide-darwin-arm64
+292 silly ADD node_modules/@tailwindcss/oxide-android-arm64
+293 silly ADD node_modules/@rollup/rollup-win32-ia32-msvc
+294 silly ADD node_modules/@rollup/rollup-win32-arm64-msvc
+295 silly ADD node_modules/@rollup/rollup-openharmony-arm64
+296 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+297 silly ADD node_modules/@rollup/rollup-linux-x64-gnu
+298 silly ADD node_modules/@rollup/rollup-linux-s390x-gnu
+299 silly ADD node_modules/@rollup/rollup-linux-riscv64-musl
+300 silly ADD node_modules/@rollup/rollup-linux-riscv64-gnu
+301 silly ADD node_modules/@rollup/rollup-linux-ppc64-gnu
+302 silly ADD node_modules/@rollup/rollup-linux-loong64-gnu
+303 silly ADD node_modules/@rollup/rollup-linux-arm64-musl
+304 silly ADD node_modules/@rollup/rollup-linux-arm64-gnu
+305 silly ADD node_modules/@rollup/rollup-linux-arm-musleabihf
+306 silly ADD node_modules/@rollup/rollup-linux-arm-gnueabihf
+307 silly ADD node_modules/@rollup/rollup-freebsd-x64
+308 silly ADD node_modules/@rollup/rollup-freebsd-arm64
+309 silly ADD node_modules/@rollup/rollup-darwin-x64
+310 silly ADD node_modules/@rollup/rollup-darwin-arm64
+311 silly ADD node_modules/@rollup/rollup-android-arm64
+312 silly ADD node_modules/@rollup/rollup-android-arm-eabi
+313 silly ADD node_modules/@esbuild/win32-ia32
+314 silly ADD node_modules/@esbuild/win32-arm64
+315 silly ADD node_modules/@esbuild/sunos-x64
+316 silly ADD node_modules/@esbuild/openharmony-arm64
+317 silly ADD node_modules/@esbuild/openbsd-x64
+318 silly ADD node_modules/@esbuild/openbsd-arm64
+319 silly ADD node_modules/@esbuild/netbsd-x64
+320 silly ADD node_modules/@esbuild/netbsd-arm64
+321 silly ADD node_modules/@esbuild/linux-x64
+322 silly ADD node_modules/@esbuild/linux-s390x
+323 silly ADD node_modules/@esbuild/linux-riscv64
+324 silly ADD node_modules/@esbuild/linux-ppc64
+325 silly ADD node_modules/@esbuild/linux-mips64el
+326 silly ADD node_modules/@esbuild/linux-loong64
+327 silly ADD node_modules/@esbuild/linux-ia32
+328 silly ADD node_modules/@esbuild/linux-arm64
+329 silly ADD node_modules/@esbuild/linux-arm
+330 silly ADD node_modules/@esbuild/freebsd-x64
+331 silly ADD node_modules/@esbuild/freebsd-arm64
+332 silly ADD node_modules/@esbuild/darwin-x64
+333 silly ADD node_modules/@esbuild/darwin-arm64
+334 silly ADD node_modules/@esbuild/android-x64
+335 silly ADD node_modules/@esbuild/android-arm64
+336 silly ADD node_modules/@esbuild/android-arm
+337 silly ADD node_modules/@esbuild/aix-ppc64
+338 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/win32-ia32
+339 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/win32-arm64
+340 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/sunos-x64
+341 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openharmony-arm64
+342 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openbsd-x64
+343 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openbsd-arm64
+344 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/netbsd-x64
+345 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/netbsd-arm64
+346 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-x64
+347 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-s390x
+348 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-riscv64
+349 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-ppc64
+350 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-mips64el
+351 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-loong64
+352 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-ia32
+353 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-arm64
+354 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-arm
+355 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/freebsd-x64
+356 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/freebsd-arm64
+357 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/darwin-x64
+358 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/darwin-arm64
+359 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-x64
+360 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-arm64
+361 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-arm
+362 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/aix-ppc64
+363 silly ADD node_modules/vite/node_modules/@esbuild/win32-ia32
+364 silly ADD node_modules/vite/node_modules/@esbuild/win32-arm64
+365 silly ADD node_modules/vite/node_modules/@esbuild/sunos-x64
+366 silly ADD node_modules/vite/node_modules/@esbuild/openharmony-arm64
+367 silly ADD node_modules/vite/node_modules/@esbuild/openbsd-x64
+368 silly ADD node_modules/vite/node_modules/@esbuild/openbsd-arm64
+369 silly ADD node_modules/vite/node_modules/@esbuild/netbsd-x64
+370 silly ADD node_modules/vite/node_modules/@esbuild/netbsd-arm64
+371 silly ADD node_modules/vite/node_modules/@esbuild/linux-x64
+372 silly ADD node_modules/vite/node_modules/@esbuild/linux-s390x
+373 silly ADD node_modules/vite/node_modules/@esbuild/linux-riscv64
+374 silly ADD node_modules/vite/node_modules/@esbuild/linux-ppc64
+375 silly ADD node_modules/vite/node_modules/@esbuild/linux-mips64el
+376 silly ADD node_modules/vite/node_modules/@esbuild/linux-loong64
+377 silly ADD node_modules/vite/node_modules/@esbuild/linux-ia32
+378 silly ADD node_modules/vite/node_modules/@esbuild/linux-arm64
+379 silly ADD node_modules/vite/node_modules/@esbuild/linux-arm
+380 silly ADD node_modules/vite/node_modules/@esbuild/freebsd-x64
+381 silly ADD node_modules/vite/node_modules/@esbuild/freebsd-arm64
+382 silly ADD node_modules/vite/node_modules/@esbuild/darwin-x64
+383 silly ADD node_modules/vite/node_modules/@esbuild/darwin-arm64
+384 silly ADD node_modules/vite/node_modules/@esbuild/android-x64
+385 silly ADD node_modules/vite/node_modules/@esbuild/android-arm64
+386 silly ADD node_modules/vite/node_modules/@esbuild/android-arm
+387 silly ADD node_modules/vite/node_modules/@esbuild/aix-ppc64
+388 verbose cwd D:\ملف الشخصي\Untitled-Frame-4-1
+389 verbose os Windows_NT 10.0.26200
+390 verbose node v22.19.0
+391 verbose npm  v11.6.0
+392 verbose exit 0
+393 info ok

@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const expertiseData = [
@@ -36,7 +36,7 @@ export const AboutUsSection = (): JSX.Element => {
       <div className="relative container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col items-center gap-16">
           <header className="flex flex-col items-center gap-6 text-center">
-            <Badge className="h-auto bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] px-4 py-2 rounded-full gap-2 [direction:rtl] [font-family:'Almarai',Helvetica]">
+            <Badge className="h-auto bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] px-4 py-2 rounded-full gap-2 [direction:rtl] [font-family:'Tajawal',sans-serif]">
               <span className="text-sm font-normal leading-5">الخبرات</span>
               <img
                 className="w-[16.33px] h-6"
@@ -45,11 +45,11 @@ export const AboutUsSection = (): JSX.Element => {
               />
             </Badge>
 
-            <h2 className="text-4xl font-bold text-[#1d293b] leading-10 [direction:rtl] [font-family:'Almarai',Helvetica]">
+            <h2 className="text-4xl font-bold text-[#1d293b] leading-10 [direction:rtl] [font-family:'Tajawal',sans-serif]">
               مجالات التميز
             </h2>
 
-            <p className="text-base font-normal text-[#64738b] leading-6 max-w-lg [direction:rtl] [font-family:'Almarai',Helvetica]">
+            <p className="text-base font-normal text-[#64738b] leading-6 max-w-lg [direction:rtl] [font-family:'Tajawal',sans-serif]">
               مهارات قيادية مكتسبة عبر سنوات من الخبرة والعمل
             </p>
           </header>
@@ -68,7 +68,7 @@ export const AboutUsSection = (): JSX.Element => {
                       src="/figmaAssets/margin-wrap-5.svg"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-lg font-bold text-[#1d293b] leading-7 [font-family:'Almarai',Helvetica]">
+                      <span className="text-lg font-bold text-[#1d293b] leading-7 [font-family:'Tajawal',sans-serif]">
                         {item.percentage}
                       </span>
                     </div>
@@ -81,10 +81,10 @@ export const AboutUsSection = (): JSX.Element => {
                   />
 
                   <div className="flex flex-col items-center gap-2 text-center">
-                    <h3 className="text-base font-normal text-[#1d293b] leading-6 [direction:rtl] [font-family:'Almarai',Helvetica]">
+                    <h3 className="text-base font-normal text-[#1d293b] leading-6 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       {item.title}
                     </h3>
-                    <p className="text-sm font-normal text-[#94a2b8] leading-5 [direction:rtl] [font-family:'Almarai',Helvetica]">
+                    <p className="text-sm font-normal text-[#94a2b8] leading-5 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       {item.description}
                     </p>
                   </div>
@@ -97,3 +97,5 @@ export const AboutUsSection = (): JSX.Element => {
     </section>
   );
 };
+
+

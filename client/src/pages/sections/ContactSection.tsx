@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -27,7 +27,7 @@ export const ContactSection = (): JSX.Element => {
         <div className="flex flex-col items-center gap-16">
           <div className="flex flex-col items-center gap-6 max-w-[976px]">
             <Badge className="bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] h-auto px-4 py-2 gap-2 rounded-full">
-              <span className="text-sm font-normal [font-family:'Almarai',Helvetica]">
+              <span className="text-sm font-normal [font-family:'Tajawal',sans-serif]">
                 تواصل
               </span>
               <img
@@ -37,11 +37,11 @@ export const ContactSection = (): JSX.Element => {
               />
             </Badge>
 
-            <h2 className="text-4xl font-bold text-[#1d293b] text-center [font-family:'Almarai',Helvetica]">
+            <h2 className="text-4xl font-bold text-[#1d293b] text-center [font-family:'Tajawal',sans-serif]">
               لنبني المستقبل معا
             </h2>
 
-            <p className="text-base font-normal text-[#64738b] text-center max-w-md [font-family:'Almarai',Helvetica]">
+            <p className="text-base font-normal text-[#64738b] text-center max-w-md [font-family:'Tajawal',sans-serif]">
               أرحب دائما بالتواصل مع رواد الأعمال والمبدعين
             </p>
           </div>
@@ -54,10 +54,10 @@ export const ContactSection = (): JSX.Element => {
               >
                 <CardContent className="flex flex-col items-center p-[33px] gap-2">
                   <img className="mb-2" alt={card.label} src={card.icon} />
-                  <p className="text-sm font-normal text-[#94a2b8] text-center [font-family:'Almarai',Helvetica]">
+                  <p className="text-sm font-normal text-[#94a2b8] text-center [font-family:'Tajawal',sans-serif]">
                     {card.label}
                   </p>
-                  <p className="text-base font-normal text-[#1d293b] text-center [font-family:'Almarai',Helvetica]">
+                  <p className="text-base font-normal text-[#1d293b] text-center [font-family:'Tajawal',sans-serif]">
                     {card.value}
                   </p>
                 </CardContent>
@@ -66,7 +66,7 @@ export const ContactSection = (): JSX.Element => {
           </div>
 
           <Button className="bg-[#362a9b] hover:bg-[#362a9b]/90 text-white h-auto px-10 py-5 rounded-2xl gap-3">
-            <span className="text-base font-normal [font-family:'Almarai',Helvetica]">
+            <span className="text-base font-normal [font-family:'Tajawal',sans-serif]">
               استكشف خدمات الوكالة
             </span>
             <img
@@ -80,3 +80,5 @@ export const ContactSection = (): JSX.Element => {
     </section>
   );
 };
+
+

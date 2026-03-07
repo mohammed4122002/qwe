@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const decorativeDotsData = [
@@ -59,12 +59,10 @@ const smallStatsData = [
 
 export const AchievementsStatsSection = (): JSX.Element => {
   return (
-    <section className="relative w-full py-20 overflow-hidden">
+    <section className="relative w-full py-24 overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
-        <div className="absolute inset-0 bg-[linear-gradient(150deg,rgba(15,23,42,1)_0%,rgba(30,41,59,1)_50%,rgba(15,23,42,1)_100%)]" />
-
+        <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(12,21,45,1)_0%,rgba(16,29,56,1)_48%,rgba(38,45,102,1)_100%)]" />
         <div className="absolute top-[-300px] left-[1140px] w-[600px] h-[600px] bg-[#4335c233] rounded-full blur-[60px]" />
-
         <div className="absolute top-[1104px] left-[-250px] w-[500px] h-[500px] bg-[#4335c226] rounded-full blur-[50px]" />
 
         {decorativeDotsData.map((dot, index) => (
@@ -75,15 +73,15 @@ export const AchievementsStatsSection = (): JSX.Element => {
         ))}
       </div>
 
-      <div className="relative max-w-screen-xl mx-auto px-6">
-        <header className="flex flex-col items-center mb-20">
+      <div className="relative max-w-[1180px] mx-auto px-6">
+        <header className="flex flex-col items-center mb-16">
           <Badge
             variant="outline"
-            className="mb-8 h-auto px-[21px] py-[11px] bg-[#ffffff0d] border-[#ffffff1a] backdrop-blur-[2px] rounded-full"
+            className="mb-8 h-auto px-[21px] py-[11px] bg-[#ffffff0f] border-[#ffffff1a] rounded-full"
           >
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 bg-white rounded-full" />
-              <span className="text-white text-sm font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
+              <span className="text-white text-sm font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
                 الأرقام تتحدث عن نفسها
               </span>
               <div className="w-2 h-2 bg-white rounded-full" />
@@ -91,100 +89,93 @@ export const AchievementsStatsSection = (): JSX.Element => {
           </Badge>
 
           <div className="flex items-center gap-3 mb-6">
-            <h2 className="text-white text-5xl font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
+            <h2 className="text-white text-5xl md:text-6xl font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
               إنجازات
             </h2>
-            <h2 className="text-[#4335c1] text-5xl font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
+            <h2 className="text-[#4335c1] text-5xl md:text-6xl font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
               استثنائية
             </h2>
           </div>
 
-          <p className="max-w-xl text-[#94a2b8] text-lg text-center font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
-            أرقام حقيقية تعكس مسيرة حافلة بالنجاحات والإنجازات على مدار 15 عاما
+          <p className="max-w-2xl text-[#94a2b8] text-lg text-center font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
+            أرقام حقيقية تعكس مسيرة حافلة بالنجاحات والإنجازات على مدار 15 عاماً
           </p>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {largeStatsData.map((stat, index) => (
-            <Card
-              key={`large-stat-${index}`}
-              className="relative bg-[#ffffff0d] border-[#ffffff1a] backdrop-blur-[2px] rounded-3xl overflow-hidden"
-            >
-              <div className="absolute top-px left-px w-full h-full bg-[linear-gradient(149deg,rgba(16,185,129,0)_0%,rgba(16,185,129,0)_100%)]" />
-              <CardContent className="relative p-[33px] flex flex-col items-end">
-                <img className="mb-4" alt="Icon" src={stat.icon} />
-                <div className="text-white text-5xl font-normal text-right mb-4 [font-family:'Almarai',Helvetica]">
-                  {stat.value}
-                </div>
-                <div className="text-[#ffffffcc] text-2xl font-bold mb-1 [font-family:'Almarai',Helvetica] [direction:rtl]">
-                  {stat.title}
-                </div>
-                <div className="text-[#94a2b8] text-sm font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
-                  {stat.description}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="flex flex-col lg:flex-row gap-5" dir="ltr">
+          <div className="flex-1 space-y-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {largeStatsData.map((stat, index) => (
+                <Card
+                  key={`large-stat-${index}`}
+                  className="bg-[#ffffff0d] border-[#ffffff1a] rounded-[28px]"
+                >
+                  <CardContent className="p-8 min-h-[246px] flex flex-col items-end justify-between">
+                    <img className="w-12 h-12" alt="Icon" src={stat.icon} />
 
-          <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {smallStatsData.map((stat, index) => (
-              <Card
-                key={`small-stat-${index}`}
-                className="bg-[#ffffff0d] border-[#ffffff1a] backdrop-blur-[2px] rounded-2xl overflow-hidden"
-              >
-                <CardContent className="p-[25px] flex flex-col items-center">
-                  <img className="mb-1" alt="Icon" src={stat.icon} />
-                  <div className="text-white text-3xl font-normal text-center mb-1 [font-family:'Almarai',Helvetica]">
-                    {stat.value}
-                  </div>
-                  <div className="text-[#94a2b8] text-sm font-normal text-center [font-family:'Almarai',Helvetica] [direction:rtl]">
-                    {stat.label}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                    <div className="w-full flex flex-col items-end text-right">
+                      <div className="text-white text-5xl leading-[1.2] font-normal [font-family:'Tajawal',sans-serif]">
+                        {stat.value}
+                      </div>
+                      <div className="text-[#ffffffde] text-3xl font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                        {stat.title}
+                      </div>
+                      <div className="text-[#94a2b8] text-base font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                        {stat.description}
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+              {smallStatsData.map((stat, index) => (
+                <Card
+                  key={`small-stat-${index}`}
+                  className="bg-[#ffffff0d] border-[#ffffff1a] rounded-3xl"
+                >
+                  <CardContent className="p-7 min-h-[172px] flex flex-col items-center justify-between">
+                    <img className="w-12 h-12" alt="Icon" src={stat.icon} />
+                    <div className="text-white text-4xl leading-none font-normal [font-family:'Tajawal',sans-serif]">
+                      {stat.value}
+                    </div>
+                    <div className="text-[#94a2b8] text-base font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                      {stat.label}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
 
-          <Card className="lg:col-span-3 relative bg-[#4335c1] rounded-[32px] overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-full bg-[#4335c1] rounded-[32px] blur-md opacity-50" />
+          <Card className="relative w-full lg:w-[460px] bg-[#7a73d3] border-[#8d86de] rounded-[32px] overflow-hidden shadow-[0px_20px_40px_-15px_#4335c266]">
+            <div className="absolute -top-24 -left-12 w-72 h-72 bg-[#ffffff2e] rounded-full" />
+            <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-[#ffffff1f] rounded-full" />
+            <div className="absolute top-14 right-8 w-[120px] h-[120px] bg-[#ffffff1f] rounded-[28px]" />
 
-            <div className="absolute -top-32 left-[371px] w-64 h-64 bg-[#ffffff1a] rounded-full" />
-            <div className="absolute top-[368px] -left-24 w-48 h-48 bg-[#ffffff0d] rounded-full" />
-            <div className="absolute inset-0 bg-white opacity-30" />
+            <CardContent className="relative p-8 min-h-[424px] flex flex-col items-end justify-between">
+              <Badge className="h-auto px-4 py-2 bg-[#ffffff33] hover:bg-[#ffffff33] text-white border-transparent rounded-full gap-2">
+                <span className="text-sm font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
+                  الإنجاز الأبرز
+                </span>
+                <img className="w-4 h-6" alt="Icon" src="/figmaAssets/i-230.svg" />
+              </Badge>
 
-            <CardContent className="relative p-10 flex flex-col items-end justify-end min-h-[464px]">
-              <div className="flex flex-col items-end mb-6">
-                <Badge
-                  variant="outline"
-                  className="mb-6 h-auto px-4 py-2 bg-[#ffffff33] border-transparent backdrop-blur-[2px] rounded-full"
-                >
-                  <div className="flex items-center gap-2">
-                    <span className="text-[#ffffffe6] text-sm font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
-                      الإنجاز الأبرز
-                    </span>
-                    <img
-                      className="w-4 h-6"
-                      alt="Icon"
-                      src="/figmaAssets/i-230.svg"
-                    />
-                  </div>
-                </Badge>
+              <img
+                className="w-12 h-12 mr-2"
+                alt="Decoration"
+                src="/figmaAssets/margin-wrap-36.svg"
+              />
 
-                <img
-                  className="mb-4"
-                  alt="Decoration"
-                  src="/figmaAssets/margin-wrap-36.svg"
-                />
-              </div>
-
-              <div className="flex flex-col items-end">
-                <div className="text-white text-9xl font-normal text-right tracking-[-6.40px] leading-[128px] mb-4 [font-family:'Almarai',Helvetica]">
+              <div className="flex flex-col items-end text-right">
+                <div className="text-white text-[112px] leading-[110px] tracking-[-4px] font-normal [font-family:'Tajawal',sans-serif]">
                   500+
                 </div>
-                <div className="text-[#ffffffe6] text-2xl font-bold mb-2 [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <div className="text-[#fffffff0] text-[20px] font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   مشروع منجز
                 </div>
-                <div className="text-[#ffffff99] text-base font-normal [font-family:'Almarai',Helvetica] [direction:rtl]">
+                <div className="mt-2 text-[#ffffffbf] text-[14px] [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   مشاريع ناجحة في مختلف المجالات حول العالم العربي
                 </div>
               </div>
@@ -195,3 +186,5 @@ export const AchievementsStatsSection = (): JSX.Element => {
     </section>
   );
 };
+
+

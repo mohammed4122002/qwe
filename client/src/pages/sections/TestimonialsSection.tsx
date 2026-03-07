@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
@@ -39,16 +39,16 @@ export const TestimonialsSection = (): JSX.Element => {
                 alt="Icon"
                 src="/figmaAssets/i-823.svg"
               />
-              <span className="text-sm font-normal [font-family:'Almarai',Helvetica]">
+              <span className="text-sm font-normal [font-family:'Tajawal',sans-serif]">
                 آراء الشركاء
               </span>
             </Badge>
 
-            <h2 className="text-4xl font-bold text-[#1d293b] [font-family:'Almarai',Helvetica]">
+            <h2 className="text-4xl font-bold text-[#1d293b] [font-family:'Tajawal',sans-serif]">
               ماذا يقولون عني
             </h2>
 
-            <p className="text-base font-normal text-[#64738b] max-w-lg [font-family:'Almarai',Helvetica]">
+            <p className="text-base font-normal text-[#64738b] max-w-lg [font-family:'Tajawal',sans-serif]">
               شهادات من شركاء وعملاء عملت معهم على مدار السنوات
             </p>
           </div>
@@ -73,16 +73,16 @@ export const TestimonialsSection = (): JSX.Element => {
                     />
                   </div>
 
-                  <p className="text-base font-normal text-slate-600 leading-[26px] line-clamp-2 [font-family:'Almarai',Helvetica]">
+                  <p className="text-base font-normal text-slate-600 leading-[26px] line-clamp-2 [font-family:'Tajawal',sans-serif]">
                     "{testimonial.quote}"
                   </p>
 
                   <div className="flex items-center justify-end gap-4 pt-6 border-t border-slate-100">
                     <div className="flex flex-col items-end gap-1">
-                      <p className="text-base font-normal text-[#1d293b] [font-family:'Almarai',Helvetica]">
+                      <p className="text-base font-normal text-[#1d293b] [font-family:'Tajawal',sans-serif]">
                         {testimonial.name}
                       </p>
-                      <p className="text-sm font-normal text-[#94a2b8] [font-family:'Almarai',Helvetica]">
+                      <p className="text-sm font-normal text-[#94a2b8] [font-family:'Tajawal',sans-serif]">
                         {testimonial.title}
                       </p>
                     </div>
@@ -101,3 +101,5 @@ export const TestimonialsSection = (): JSX.Element => {
     </section>
   );
 };
+
+

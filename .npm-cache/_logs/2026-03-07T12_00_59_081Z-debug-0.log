@@ -1,0 +1,1795 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v22.19.0
+3 silly config load:file:C:\Users\hp\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\ملف الشخصي\Untitled-Frame-4-1\.npmrc
+5 silly config load:file:C:\Users\hp\.npmrc
+6 silly config load:file:C:\Users\hp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:D:\ملف الشخصي\Untitled-Frame-4-1\.npm-cache\_logs\2026-03-07T12_00_59_081Z-
+10 verbose logfile D:\ملف الشخصي\Untitled-Frame-4-1\.npm-cache\_logs\2026-03-07T12_00_59_081Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\autoprefixer' ]
+15 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\browserslist' ]
+16 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\bufferutil' ]
+17 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\caniuse-lite' ]
+18 silly reify mark retired [
+18 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\connect-pg-simple'
+18 silly reify ]
+19 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\cssesc' ]
+20 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-kit' ]
+21 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-orm' ]
+22 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-zod' ]
+23 silly reify mark retired [
+23 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\electron-to-chromium'
+23 silly reify ]
+24 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\esbuild' ]
+25 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\express-session' ]
+26 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\framer-motion' ]
+27 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\fsevents' ]
+28 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\glob' ]
+29 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\get-tsconfig' ]
+30 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\jiti' ]
+31 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\jsesc' ]
+32 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\json5' ]
+33 silly reify mark retired [
+33 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-android-arm64'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-arm64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-x64'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-freebsd-x64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm-gnueabihf'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-gnu'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-musl'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-gnu'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-musl'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-win32-arm64-msvc'
+42 silly reify ]
+43 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\loose-envify' ]
+44 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lucide-react' ]
+45 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\memorystore' ]
+46 silly reify mark retired [
+46 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\modern-screenshot'
+46 silly reify ]
+47 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\motion-utils' ]
+48 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\motion-dom' ]
+49 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\nanoid' ]
+50 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\node-gyp-build' ]
+51 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\node-releases' ]
+52 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\obuf' ]
+53 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\passport-local' ]
+54 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\pg-numeric' ]
+55 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\pg-types' ]
+56 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-array' ]
+57 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-bytea' ]
+58 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-date' ]
+59 silly reify mark retired [
+59 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-interval'
+59 silly reify ]
+60 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-range' ]
+61 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\react-hook-form' ]
+62 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\react-icons' ]
+63 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\recharts' ]
+64 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\regexparam' ]
+65 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\resolve' ]
+66 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\rollup' ]
+67 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\semver' ]
+68 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\sucrase' ]
+69 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tailwindcss' ]
+70 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tsx' ]
+71 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tw-animate-css' ]
+72 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\typescript' ]
+73 silly reify mark retired [
+73 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\update-browserslist-db'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\use-sync-external-store'
+74 silly reify ]
+75 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite' ]
+76 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\which' ]
+77 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\wouter' ]
+78 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\ws' ]
+79 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\yaml' ]
+80 silly reify mark retired [
+80 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\zod-validation-error'
+80 silly reify ]
+81 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\parser' ]
+82 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\runtime' ]
+83 silly reify mark retired [
+83 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\aix-ppc64'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-x64'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-arm64'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-x64'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-arm64'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-x64'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ia32'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-loong64'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm64'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-mips64el'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ppc64'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-riscv64'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-s390x'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-x64'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-arm64'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-x64'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-arm64'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-x64'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openharmony-arm64'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\sunos-x64'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-arm64'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-ia32'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-alert-dialog'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-accordion'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-aspect-ratio'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-checkbox'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-avatar'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-arrow'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-collapsible'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-collection'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-context-menu'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dialog'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dismissable-layer'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dropdown-menu'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-focus-scope'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-hover-card'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-label'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-menu'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-menubar'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-navigation-menu'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-popover'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-popper'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-portal'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-presence'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-primitive'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-progress'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-radio-group'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-roving-focus'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-scroll-area'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-select'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-separator'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-slider'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-switch'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-tabs'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toast'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toggle'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toggle-group'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-tooltip'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-use-controllable-state'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-visually-hidden'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-cartographer'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-dev-banner'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-runtime-error-modal'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm-eabi'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm64'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-arm64'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-x64'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-arm64'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-x64'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-musl'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-openharmony-arm64'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-x64-gnu'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-x64-msvc'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-android-arm64'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\typography'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\vite'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\query-core'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\react-query'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\babel__traverse'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\connect-pg-simple'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\express-session'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport-local'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport-strategy'
+192 silly reify ]
+193 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\pg' ]
+194 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\react' ]
+195 silly reify mark retired [
+195 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\react-dom'
+195 silly reify ]
+196 silly reify mark retired [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\ws' ]
+197 silly reify mark retired [
+197 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@vitejs\\plugin-react'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\node\\node_modules\\jiti'
+198 silly reify ]
+199 silly reify moves {
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\autoprefixer': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.autoprefixer-9y3aJLcJ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\browserslist': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.browserslist-fhnQah3y',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\bufferutil': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.bufferutil-w4IMmHyf',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\caniuse-lite': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.caniuse-lite-Cz7G1pxQ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\connect-pg-simple': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.connect-pg-simple-2fVdTKyK',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\cssesc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.cssesc-7v6MEr7f',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-kit': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.drizzle-kit-iiu1XCDk',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-orm': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.drizzle-orm-Ol9FaxwD',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\drizzle-zod': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.drizzle-zod-aUZXMjPt',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\electron-to-chromium': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.electron-to-chromium-wH12ikmG',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\esbuild': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.esbuild-lpw9NK9y',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\express-session': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.express-session-oNzY0zPk',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\framer-motion': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.framer-motion-ze9YLm1q',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\fsevents': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.fsevents-q4lxGA5J',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\glob': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.glob-hXHTNbCl',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\get-tsconfig': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.get-tsconfig-4XMaMWcA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\jiti': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.jiti-gW8Whokq',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\jsesc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.jsesc-WaHTUNhF',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\json5': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.json5-jdnidVEQ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-android-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-android-arm64-M03c6Tbo',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-darwin-arm64-ZJ9fH3zc',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-darwin-x64-1ynJtIz7',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-freebsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-freebsd-x64-5laslUtn',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm-gnueabihf': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-linux-arm-gnueabihf-uugyaiyn',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-linux-arm64-gnu-JoH42o1E',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-linux-arm64-musl-JuYdljYn',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-linux-x64-gnu-h90MWDqd',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-linux-x64-musl-mPZkzB7H',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-win32-arm64-msvc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lightningcss-win32-arm64-msvc-wejWaDUb',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\loose-envify': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.loose-envify-e8jpSFU9',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lucide-react': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.lucide-react-bgnt1aaL',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\memorystore': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.memorystore-uSGy0XiB',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\modern-screenshot': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.modern-screenshot-KCsxzy6R',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\motion-utils': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.motion-utils-cXGTjVTV',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\motion-dom': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.motion-dom-NNDoAwH0',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\nanoid': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.nanoid-ZqydIa1z',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\node-gyp-build': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.node-gyp-build-2TteDy5L',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\node-releases': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.node-releases-q86wo2si',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\obuf': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.obuf-a2EGEGo8',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\passport-local': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.passport-local-SRwHqNVo',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\pg-numeric': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.pg-numeric-rdxgL7s8',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\pg-types': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.pg-types-ndnuDty2',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-array': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.postgres-array-Ur92WilK',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-bytea': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.postgres-bytea-C3V2au4g',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-date': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.postgres-date-PQj0z9F3',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-interval': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.postgres-interval-VlKcF0Pi',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\postgres-range': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.postgres-range-k5QeGRoU',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\react-hook-form': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.react-hook-form-ytAeTT1l',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\react-icons': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.react-icons-3fFaYTAu',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\recharts': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.recharts-6p6tdupq',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\regexparam': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.regexparam-jqHkmeGB',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\resolve': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.resolve-9goh5dZI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\rollup': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.rollup-pi9M43cs',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\semver': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.semver-LGqdpFMR',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\sucrase': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.sucrase-uJ3aFbAd',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tailwindcss': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.tailwindcss-FZLtQSFz',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tsx': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.tsx-sojzZfms',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\tw-animate-css': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.tw-animate-css-KI307Vdy',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\typescript': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.typescript-WHks13Nz',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\update-browserslist-db': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.update-browserslist-db-clMiMkwE',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\use-sync-external-store': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.use-sync-external-store-1zvxjD5J',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.vite-i3WenwpI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\which': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.which-1BAl7i0e',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\wouter': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.wouter-145EhpQI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\ws': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.ws-iqnKZbWC',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\yaml': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.yaml-VYOnpNWy',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\zod-validation-error': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\.zod-validation-error-Ia74516C',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\parser': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\.parser-zyTZ1rk1',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\runtime': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@babel\\.runtime-qeAD9UW1',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\aix-ppc64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.aix-ppc64-H9eRcGkI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.android-arm-gN0tDOqG',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.android-arm64-F7yWIobp',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.android-x64-9uZuEgk9',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.darwin-arm64-f0ZUgUG0',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.darwin-x64-mcrOcoVK',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.freebsd-arm64-e94SXFRZ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.freebsd-x64-2GVkgIOI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-arm-Vz709TTp',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ia32': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-ia32-Y8lzn7Vo',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-loong64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-loong64-19KRoQSN',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-arm64-wnqVMa0g',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-mips64el': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-mips64el-w6a6cyI4',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ppc64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-ppc64-n6EYJtnq',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-riscv64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-riscv64-DRZ2mCZT',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-s390x': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-s390x-ls5lVthO',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.linux-x64-NxG0eMd1',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.netbsd-arm64-8blZuDkx',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.netbsd-x64-5mSwmgQ1',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.openbsd-arm64-geq6fUXA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.openbsd-x64-1QPrWuvE',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openharmony-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.openharmony-arm64-7ijDtk1N',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\sunos-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.sunos-x64-1LXwA7BH',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.win32-arm64-889k4fWY',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-ia32': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\.win32-ia32-B6dPkx44',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\.esm-loader-KHCdiHKR',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-alert-dialog': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-alert-dialog-yTJ1kCEa',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-accordion': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-accordion-adlnbfqd',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-aspect-ratio': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-aspect-ratio-lPf4yxwp',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-checkbox': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-checkbox-3PxwzO2h',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-avatar': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-avatar-eYobmiJW',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-arrow': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-arrow-l6IfvPF8',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-collapsible': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-collapsible-HjMvMJ1V',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-collection': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-collection-qlY6hRx8',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-context-menu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-context-menu-I4qERkhL',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dialog': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-dialog-u688N5Qj',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dismissable-layer': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-dismissable-layer-qev3v7s8',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-dropdown-menu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-dropdown-menu-WI2aPW5j',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-focus-scope': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-focus-scope-UWvBp2Dc',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-hover-card': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-hover-card-g2BgmcDB',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-label': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-label-p5JNTSfR',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-menu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-menu-3Q9zDrRh',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-menubar': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-menubar-tjtoTgF6',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-navigation-menu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-navigation-menu-SvTH4DbK',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-popover': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-popover-DJTSOJXH',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-popper': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-popper-0NFLT8dk',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-portal': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-portal-U8S8Urpx',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-presence': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-presence-aL7du9NN',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-primitive': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-primitive-c3C7vPRg',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-progress': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-progress-VAzv3QCI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-radio-group': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-radio-group-bIJ3JjrP',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-roving-focus': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-roving-focus-iDX5ok6K',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-scroll-area': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-scroll-area-A3U9FFp7',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-select': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-select-h9wytCWA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-separator': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-separator-H7STs5jz',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-slider': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-slider-arimU2GN',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-switch': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-switch-pzTj0dPE',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-tabs': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-tabs-UXE4j6ro',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toast': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-toast-ee9SWmTv',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toggle': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-toggle-vHY7RaQU',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-toggle-group': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-toggle-group-dvj4D3w5',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-tooltip': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-tooltip-DVfcDlgq',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-use-controllable-state': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-use-controllable-state-V7U7xFPT',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\react-visually-hidden': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@radix-ui\\.react-visually-hidden-bGXsP0Eu',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-cartographer': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\.vite-plugin-cartographer-XFzT6Kpj',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-dev-banner': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\.vite-plugin-dev-banner-JIALE0bQ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\vite-plugin-runtime-error-modal': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@replit\\.vite-plugin-runtime-error-modal-k2Yuzuat',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm-eabi': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-android-arm-eabi-3QZ3d5cZ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-android-arm64-mJQSEmnb',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-darwin-arm64-xjh3WoKS',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-darwin-x64-Ab4SXmOT',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-freebsd-arm64-ryzZ66jA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-freebsd-x64-fel6odJP',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-arm-gnueabihf-JlCvc7nA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-musleabihf': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-arm-musleabihf-T0fN2ppG',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-arm64-gnu-8tt5KoPa',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-arm64-musl-Kcf3H2Mn',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-loong64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-loong64-gnu-Bm1Q1qxx',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-ppc64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-ppc64-gnu-OvnHHlC9',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-riscv64-gnu-kS30rQla',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-riscv64-musl-lbyZSBqK',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-s390x-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-s390x-gnu-shfYZ1Hy',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-x64-gnu-yWytFWJt',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-linux-x64-musl-EAKT5Cdk',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-openharmony-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-openharmony-arm64-VfwH6dEq',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-arm64-msvc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-win32-arm64-msvc-DCtqhIpf',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-ia32-msvc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-win32-ia32-msvc-Fu2OlsCN',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-x64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-win32-x64-gnu-FetDDC3j',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-x64-msvc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\.rollup-win32-x64-msvc-adfeDtD9',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-android-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-android-arm64-l6ka1SSS',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-arm64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-darwin-arm64-HW0JKJAP',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-darwin-x64-zDIqScw6',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-freebsd-x64': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-freebsd-x64-M7k1wy7c',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-linux-arm-gnueabihf-axDfwMkQ',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-linux-arm64-gnu-8ZOeIxH7',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-linux-arm64-musl-sqgygg4T',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-linux-x64-gnu-BHLuNA98',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-musl': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-linux-x64-musl-ah6TA6Je',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-win32-arm64-msvc-BHmePgCn',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.oxide-wasm32-wasi-rkZgQnGT',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\typography': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.typography-xQ5DznQA',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\vite': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\.vite-KbOGKFdC',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\query-core': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\.query-core-DLVA3RGz',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\react-query': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tanstack\\.react-query-zbEwzseI',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\babel__traverse': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.babel__traverse-MQotRITz',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\connect-pg-simple': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.connect-pg-simple-SQDtwL9N',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\express-session': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.express-session-y3NMu5sW',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.passport-UW0T7iSv',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport-local': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.passport-local-gPmnwo27',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\passport-strategy': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.passport-strategy-jwPwg6cX',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\pg': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.pg-jkOfu4yr',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\react': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.react-Xc3kftSW',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\react-dom': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.react-dom-9f3LSxYE',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\ws': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@types\\.ws-rG0a4imd',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@vitejs\\plugin-react': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@vitejs\\.plugin-react-RfGoa06X',
+199 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\node\\node_modules\\jiti': 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\node\\node_modules\\.jiti-svh2OlzA'
+199 silly reify }
+200 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi
+201 silly reify mark deleted [
+201 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+201 silly reify ]
+202 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\core
+203 silly reify mark deleted [
+203 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\core'
+203 silly reify ]
+204 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\runtime
+205 silly reify mark deleted [
+205 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\runtime'
+205 silly reify ]
+206 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\wasi-threads
+207 silly reify mark deleted [
+207 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\wasi-threads'
+207 silly reify ]
+208 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+209 silly reify mark deleted [
+209 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+209 silly reify ]
+210 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@tybys\wasm-util
+211 silly reify mark deleted [
+211 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@tybys\\wasm-util'
+211 silly reify ]
+212 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib
+213 silly reify mark deleted [
+213 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\tslib'
+213 silly reify ]
+214 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+215 silly reify mark deleted [
+215 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+215 silly reify ]
+216 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-x64-musl
+217 silly reify mark deleted [
+217 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+217 silly reify ]
+218 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-x64-gnu
+219 silly reify mark deleted [
+219 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+219 silly reify ]
+220 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm64-musl
+221 silly reify mark deleted [
+221 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+221 silly reify ]
+222 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+223 silly reify mark deleted [
+223 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+223 silly reify ]
+224 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+225 silly reify mark deleted [
+225 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+225 silly reify ]
+226 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-freebsd-x64
+227 silly reify mark deleted [
+227 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+227 silly reify ]
+228 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-darwin-x64
+229 silly reify mark deleted [
+229 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+229 silly reify ]
+230 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-darwin-arm64
+231 silly reify mark deleted [
+231 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+231 silly reify ]
+232 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@tailwindcss\oxide-android-arm64
+233 silly reify mark deleted [
+233 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@tailwindcss\\oxide-android-arm64'
+233 silly reify ]
+234 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-win32-ia32-msvc
+235 silly reify mark deleted [
+235 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+235 silly reify ]
+236 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-win32-arm64-msvc
+237 silly reify mark deleted [
+237 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+237 silly reify ]
+238 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-openharmony-arm64
+239 silly reify mark deleted [
+239 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-openharmony-arm64'
+239 silly reify ]
+240 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-x64-musl
+241 silly reify mark deleted [
+241 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-musl'
+241 silly reify ]
+242 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-x64-gnu
+243 silly reify mark deleted [
+243 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+243 silly reify ]
+244 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-s390x-gnu
+245 silly reify mark deleted [
+245 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+245 silly reify ]
+246 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-riscv64-musl
+247 silly reify mark deleted [
+247 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+247 silly reify ]
+248 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-riscv64-gnu
+249 silly reify mark deleted [
+249 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+249 silly reify ]
+250 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-ppc64-gnu
+251 silly reify mark deleted [
+251 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+251 silly reify ]
+252 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-loong64-gnu
+253 silly reify mark deleted [
+253 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+253 silly reify ]
+254 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm64-musl
+255 silly reify mark deleted [
+255 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+255 silly reify ]
+256 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm64-gnu
+257 silly reify mark deleted [
+257 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+257 silly reify ]
+258 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm-musleabihf
+259 silly reify mark deleted [
+259 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+259 silly reify ]
+260 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-linux-arm-gnueabihf
+261 silly reify mark deleted [
+261 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+261 silly reify ]
+262 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-freebsd-x64
+263 silly reify mark deleted [
+263 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-x64'
+263 silly reify ]
+264 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-freebsd-arm64
+265 silly reify mark deleted [
+265 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-freebsd-arm64'
+265 silly reify ]
+266 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-darwin-x64
+267 silly reify mark deleted [
+267 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-x64'
+267 silly reify ]
+268 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-darwin-arm64
+269 silly reify mark deleted [
+269 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-darwin-arm64'
+269 silly reify ]
+270 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-android-arm64
+271 silly reify mark deleted [
+271 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm64'
+271 silly reify ]
+272 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@rollup\rollup-android-arm-eabi
+273 silly reify mark deleted [
+273 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@rollup\\rollup-android-arm-eabi'
+273 silly reify ]
+274 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\win32-ia32
+275 silly reify mark deleted [
+275 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\win32-ia32'
+275 silly reify ]
+276 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\win32-arm64
+277 silly reify mark deleted [
+277 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\win32-arm64'
+277 silly reify ]
+278 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\sunos-x64
+279 silly reify mark deleted [
+279 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\sunos-x64'
+279 silly reify ]
+280 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openharmony-arm64
+281 silly reify mark deleted [
+281 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openharmony-arm64'
+281 silly reify ]
+282 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openbsd-x64
+283 silly reify mark deleted [
+283 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openbsd-x64'
+283 silly reify ]
+284 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\openbsd-arm64
+285 silly reify mark deleted [
+285 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\openbsd-arm64'
+285 silly reify ]
+286 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\netbsd-x64
+287 silly reify mark deleted [
+287 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\netbsd-x64'
+287 silly reify ]
+288 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\netbsd-arm64
+289 silly reify mark deleted [
+289 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\netbsd-arm64'
+289 silly reify ]
+290 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-x64
+291 silly reify mark deleted [
+291 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-x64'
+291 silly reify ]
+292 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-s390x
+293 silly reify mark deleted [
+293 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-s390x'
+293 silly reify ]
+294 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-riscv64
+295 silly reify mark deleted [
+295 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-riscv64'
+295 silly reify ]
+296 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-ppc64
+297 silly reify mark deleted [
+297 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-ppc64'
+297 silly reify ]
+298 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-mips64el
+299 silly reify mark deleted [
+299 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-mips64el'
+299 silly reify ]
+300 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-loong64
+301 silly reify mark deleted [
+301 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-loong64'
+301 silly reify ]
+302 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-ia32
+303 silly reify mark deleted [
+303 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-ia32'
+303 silly reify ]
+304 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\freebsd-x64
+305 silly reify mark deleted [
+305 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\freebsd-x64'
+305 silly reify ]
+306 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-arm64
+307 silly reify mark deleted [
+307 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-arm64'
+307 silly reify ]
+308 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\linux-arm
+309 silly reify mark deleted [
+309 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\linux-arm'
+309 silly reify ]
+310 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\freebsd-arm64
+311 silly reify mark deleted [
+311 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\freebsd-arm64'
+311 silly reify ]
+312 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\darwin-x64
+313 silly reify mark deleted [
+313 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\darwin-x64'
+313 silly reify ]
+314 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\darwin-arm64
+315 silly reify mark deleted [
+315 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\darwin-arm64'
+315 silly reify ]
+316 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-x64
+317 silly reify mark deleted [
+317 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-x64'
+317 silly reify ]
+318 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-arm64
+319 silly reify mark deleted [
+319 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-arm64'
+319 silly reify ]
+320 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\android-arm
+321 silly reify mark deleted [
+321 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\android-arm'
+321 silly reify ]
+322 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild-kit\esm-loader\node_modules\@esbuild\aix-ppc64
+323 silly reify mark deleted [
+323 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild-kit\\esm-loader\\node_modules\\@esbuild\\aix-ppc64'
+323 silly reify ]
+324 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\win32-ia32
+325 silly reify mark deleted [
+325 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-ia32'
+325 silly reify ]
+326 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\win32-arm64
+327 silly reify mark deleted [
+327 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\win32-arm64'
+327 silly reify ]
+328 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\sunos-x64
+329 silly reify mark deleted [
+329 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\sunos-x64'
+329 silly reify ]
+330 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openharmony-arm64
+331 silly reify mark deleted [
+331 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openharmony-arm64'
+331 silly reify ]
+332 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openbsd-x64
+333 silly reify mark deleted [
+333 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-x64'
+333 silly reify ]
+334 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\openbsd-arm64
+335 silly reify mark deleted [
+335 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\openbsd-arm64'
+335 silly reify ]
+336 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\netbsd-x64
+337 silly reify mark deleted [
+337 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-x64'
+337 silly reify ]
+338 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\netbsd-arm64
+339 silly reify mark deleted [
+339 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\netbsd-arm64'
+339 silly reify ]
+340 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-x64
+341 silly reify mark deleted [
+341 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-x64'
+341 silly reify ]
+342 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-s390x
+343 silly reify mark deleted [
+343 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-s390x'
+343 silly reify ]
+344 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-riscv64
+345 silly reify mark deleted [
+345 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-riscv64'
+345 silly reify ]
+346 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-ppc64
+347 silly reify mark deleted [
+347 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ppc64'
+347 silly reify ]
+348 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-mips64el
+349 silly reify mark deleted [
+349 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-mips64el'
+349 silly reify ]
+350 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-arm64
+351 silly reify mark deleted [
+351 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm64'
+351 silly reify ]
+352 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-loong64
+353 silly reify mark deleted [
+353 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-loong64'
+353 silly reify ]
+354 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-ia32
+355 silly reify mark deleted [
+355 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-ia32'
+355 silly reify ]
+356 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\linux-arm
+357 silly reify mark deleted [
+357 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\linux-arm'
+357 silly reify ]
+358 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\freebsd-x64
+359 silly reify mark deleted [
+359 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-x64'
+359 silly reify ]
+360 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\freebsd-arm64
+361 silly reify mark deleted [
+361 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\freebsd-arm64'
+361 silly reify ]
+362 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\darwin-x64
+363 silly reify mark deleted [
+363 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-x64'
+363 silly reify ]
+364 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\darwin-arm64
+365 silly reify mark deleted [
+365 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\darwin-arm64'
+365 silly reify ]
+366 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-x64
+367 silly reify mark deleted [
+367 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-x64'
+367 silly reify ]
+368 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-arm64
+369 silly reify mark deleted [
+369 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm64'
+369 silly reify ]
+370 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\android-arm
+371 silly reify mark deleted [
+371 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\android-arm'
+371 silly reify ]
+372 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\@esbuild\aix-ppc64
+373 silly reify mark deleted [
+373 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\@esbuild\\aix-ppc64'
+373 silly reify ]
+374 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\win32-ia32
+375 silly reify mark deleted [
+375 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\win32-ia32'
+375 silly reify ]
+376 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\win32-arm64
+377 silly reify mark deleted [
+377 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\win32-arm64'
+377 silly reify ]
+378 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\sunos-x64
+379 silly reify mark deleted [
+379 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\sunos-x64'
+379 silly reify ]
+380 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openharmony-arm64
+381 silly reify mark deleted [
+381 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openharmony-arm64'
+381 silly reify ]
+382 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openbsd-x64
+383 silly reify mark deleted [
+383 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openbsd-x64'
+383 silly reify ]
+384 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\openbsd-arm64
+385 silly reify mark deleted [
+385 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\openbsd-arm64'
+385 silly reify ]
+386 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\netbsd-x64
+387 silly reify mark deleted [
+387 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\netbsd-x64'
+387 silly reify ]
+388 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\netbsd-arm64
+389 silly reify mark deleted [
+389 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\netbsd-arm64'
+389 silly reify ]
+390 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-x64
+391 silly reify mark deleted [
+391 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-x64'
+391 silly reify ]
+392 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-s390x
+393 silly reify mark deleted [
+393 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-s390x'
+393 silly reify ]
+394 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-riscv64
+395 silly reify mark deleted [
+395 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-riscv64'
+395 silly reify ]
+396 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-ppc64
+397 silly reify mark deleted [
+397 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-ppc64'
+397 silly reify ]
+398 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-mips64el
+399 silly reify mark deleted [
+399 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-mips64el'
+399 silly reify ]
+400 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-loong64
+401 silly reify mark deleted [
+401 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-loong64'
+401 silly reify ]
+402 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-ia32
+403 silly reify mark deleted [
+403 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-ia32'
+403 silly reify ]
+404 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-arm64
+405 silly reify mark deleted [
+405 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-arm64'
+405 silly reify ]
+406 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\linux-arm
+407 silly reify mark deleted [
+407 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\linux-arm'
+407 silly reify ]
+408 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\freebsd-x64
+409 silly reify mark deleted [
+409 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\freebsd-x64'
+409 silly reify ]
+410 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\freebsd-arm64
+411 silly reify mark deleted [
+411 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\freebsd-arm64'
+411 silly reify ]
+412 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\darwin-arm64
+413 silly reify mark deleted [
+413 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\darwin-arm64'
+413 silly reify ]
+414 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-x64
+415 silly reify mark deleted [
+415 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-x64'
+415 silly reify ]
+416 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\darwin-x64
+417 silly reify mark deleted [
+417 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\darwin-x64'
+417 silly reify ]
+418 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-arm
+419 silly reify mark deleted [
+419 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-arm'
+419 silly reify ]
+420 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\android-arm64
+421 silly reify mark deleted [
+421 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\android-arm64'
+421 silly reify ]
+422 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\vite\node_modules\@esbuild\aix-ppc64
+423 silly reify mark deleted [
+423 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\vite\\node_modules\\@esbuild\\aix-ppc64'
+423 silly reify ]
+424 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-win32-arm64-msvc
+425 silly reify mark deleted [
+425 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-win32-arm64-msvc'
+425 silly reify ]
+426 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-x64-musl
+427 silly reify mark deleted [
+427 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-musl'
+427 silly reify ]
+428 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-x64-gnu
+429 silly reify mark deleted [
+429 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-x64-gnu'
+429 silly reify ]
+430 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm64-musl
+431 silly reify mark deleted [
+431 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-musl'
+431 silly reify ]
+432 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm64-gnu
+433 silly reify mark deleted [
+433 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm64-gnu'
+433 silly reify ]
+434 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-linux-arm-gnueabihf
+435 silly reify mark deleted [
+435 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-linux-arm-gnueabihf'
+435 silly reify ]
+436 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-freebsd-x64
+437 silly reify mark deleted [
+437 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-freebsd-x64'
+437 silly reify ]
+438 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-darwin-x64
+439 silly reify mark deleted [
+439 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-x64'
+439 silly reify ]
+440 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-darwin-arm64
+441 silly reify mark deleted [
+441 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-darwin-arm64'
+441 silly reify ]
+442 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\lightningcss-android-arm64
+443 silly reify mark deleted [
+443 silly reify   'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\lightningcss-android-arm64'
+443 silly reify ]
+444 verbose reify failed optional dependency D:\ملف الشخصي\Untitled-Frame-4-1\node_modules\fsevents
+445 silly reify mark deleted [ 'D:\\ملف الشخصي\\Untitled-Frame-4-1\\node_modules\\fsevents' ]
+446 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz 1ms (cache hit)
+447 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.1.tgz 0ms (cache hit)
+448 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-18.3.12.tgz 1ms (cache hit)
+449 http cache @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.5.13.tgz 0ms (cache hit)
+450 http cache @types/passport-strategy@https://registry.npmjs.org/@types/passport-strategy/-/passport-strategy-0.2.38.tgz 0ms (cache hit)
+451 http cache @types/pg@https://registry.npmjs.org/@types/pg/-/pg-8.11.6.tgz 0ms (cache hit)
+452 http cache @types/express-session@https://registry.npmjs.org/@types/express-session/-/express-session-1.18.0.tgz 0ms (cache hit)
+453 http cache @types/connect-pg-simple@https://registry.npmjs.org/@types/connect-pg-simple/-/connect-pg-simple-7.0.3.tgz 0ms (cache hit)
+454 http cache @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.6.tgz 0ms (cache hit)
+455 http cache @types/passport@https://registry.npmjs.org/@types/passport/-/passport-1.0.17.tgz 0ms (cache hit)
+456 http cache @types/passport-local@https://registry.npmjs.org/@types/passport-local/-/passport-local-1.0.38.tgz 0ms (cache hit)
+457 http cache @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.18.tgz 1ms (cache hit)
+458 http cache @tailwindcss/typography@https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.15.tgz 0ms (cache hit)
+459 http cache @tanstack/react-query@https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.60.5.tgz 0ms (cache hit)
+460 http cache @tanstack/query-core@https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.60.5.tgz 0ms (cache hit)
+461 http cache @replit/vite-plugin-runtime-error-modal@https://registry.npmjs.org/@replit/vite-plugin-runtime-error-modal/-/vite-plugin-runtime-error-modal-0.0.3.tgz 0ms (cache hit)
+462 http cache @rollup/rollup-win32-x64-gnu@https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.53.5.tgz 0ms (cache hit)
+463 http cache @rollup/rollup-win32-x64-msvc@https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.5.tgz 0ms (cache hit)
+464 http cache @replit/vite-plugin-cartographer@https://registry.npmjs.org/@replit/vite-plugin-cartographer/-/vite-plugin-cartographer-0.4.10.tgz 0ms (cache hit)
+465 http cache @radix-ui/react-visually-hidden@https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.1.3.tgz 0ms (cache hit)
+466 http cache @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.1.1.tgz 0ms (cache hit)
+467 http cache @radix-ui/react-tooltip@https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.0.tgz 0ms (cache hit)
+468 http cache @replit/vite-plugin-dev-banner@https://registry.npmjs.org/@replit/vite-plugin-dev-banner/-/vite-plugin-dev-banner-0.1.1.tgz 0ms (cache hit)
+469 http cache @radix-ui/react-toggle-group@https://registry.npmjs.org/@radix-ui/react-toggle-group/-/react-toggle-group-1.1.3.tgz 0ms (cache hit)
+470 http cache @radix-ui/react-toggle@https://registry.npmjs.org/@radix-ui/react-toggle/-/react-toggle-1.1.3.tgz 0ms (cache hit)
+471 http cache @radix-ui/react-toast@https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.7.tgz 0ms (cache hit)
+472 http cache @radix-ui/react-tabs@https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.4.tgz 0ms (cache hit)
+473 http cache @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.1.4.tgz 0ms (cache hit)
+474 http cache @radix-ui/react-slider@https://registry.npmjs.org/@radix-ui/react-slider/-/react-slider-1.2.4.tgz 0ms (cache hit)
+475 http cache @radix-ui/react-separator@https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.3.tgz 0ms (cache hit)
+476 http cache @radix-ui/react-scroll-area@https://registry.npmjs.org/@radix-ui/react-scroll-area/-/react-scroll-area-1.2.4.tgz 0ms (cache hit)
+477 http cache @radix-ui/react-select@https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.1.7.tgz 0ms (cache hit)
+478 http cache @radix-ui/react-progress@https://registry.npmjs.org/@radix-ui/react-progress/-/react-progress-1.1.3.tgz 0ms (cache hit)
+479 http cache @radix-ui/react-roving-focus@https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.3.tgz 0ms (cache hit)
+480 http cache @radix-ui/react-radio-group@https://registry.npmjs.org/@radix-ui/react-radio-group/-/react-radio-group-1.2.4.tgz 0ms (cache hit)
+481 http cache @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.0.3.tgz 0ms (cache hit)
+482 http cache @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.3.tgz 0ms (cache hit)
+483 http cache @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.5.tgz 0ms (cache hit)
+484 http cache @radix-ui/react-popper@https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.3.tgz 0ms (cache hit)
+485 http cache @radix-ui/react-navigation-menu@https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.6.tgz 0ms (cache hit)
+486 http cache @radix-ui/react-menubar@https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.7.tgz 0ms (cache hit)
+487 http cache @radix-ui/react-popover@https://registry.npmjs.org/@radix-ui/react-popover/-/react-popover-1.1.7.tgz 0ms (cache hit)
+488 http cache @radix-ui/react-hover-card@https://registry.npmjs.org/@radix-ui/react-hover-card/-/react-hover-card-1.1.7.tgz 0ms (cache hit)
+489 http cache @radix-ui/react-menu@https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.7.tgz 0ms (cache hit)
+490 http cache @radix-ui/react-label@https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.3.tgz 0ms (cache hit)
+491 http cache @radix-ui/react-dropdown-menu@https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.7.tgz 0ms (cache hit)
+492 http cache @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.3.tgz 0ms (cache hit)
+493 http cache @radix-ui/react-context-menu@https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.7.tgz 0ms (cache hit)
+494 http cache @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.7.tgz 0ms (cache hit)
+495 http cache @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.6.tgz 0ms (cache hit)
+496 http cache @radix-ui/react-collection@https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.3.tgz 0ms (cache hit)
+497 http cache @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.4.tgz 0ms (cache hit)
+498 http cache @radix-ui/react-arrow@https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.3.tgz 0ms (cache hit)
+499 http cache @radix-ui/react-avatar@https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.4.tgz 0ms (cache hit)
+500 http cache @radix-ui/react-checkbox@https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.1.5.tgz 0ms (cache hit)
+501 http cache @radix-ui/react-accordion@https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.4.tgz 0ms (cache hit)
+502 http cache @radix-ui/react-aspect-ratio@https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.3.tgz 0ms (cache hit)
+503 http cache @radix-ui/react-alert-dialog@https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.7.tgz 0ms (cache hit)
+504 http cache @esbuild-kit/esm-loader@https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz 0ms (cache hit)
+505 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.27.0.tgz 0ms (cache hit)
+506 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz 0ms (cache hit)
+507 http cache zod-validation-error@https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-3.4.0.tgz 0ms (cache hit)
+508 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.0.tgz 0ms (cache hit)
+509 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+510 http cache yaml@https://registry.npmjs.org/yaml/-/yaml-2.6.0.tgz 0ms (cache hit)
+511 http cache wouter@https://registry.npmjs.org/wouter/-/wouter-3.3.5.tgz 0ms (cache hit)
+512 http cache vite@https://registry.npmjs.org/vite/-/vite-7.3.0.tgz 0ms (cache hit)
+513 http cache use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.2.tgz 0ms (cache hit)
+514 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz 0ms (cache hit)
+515 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.5.tgz 0ms (cache hit)
+516 http cache tw-animate-css@https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.2.5.tgz 0ms (cache hit)
+517 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz 0ms (cache hit)
+518 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+519 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.17.tgz 0ms (cache hit)
+520 http cache sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz 0ms (cache hit)
+521 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.8.tgz 0ms (cache hit)
+522 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.53.5.tgz 0ms (cache hit)
+523 http cache regexparam@https://registry.npmjs.org/regexparam/-/regexparam-3.0.0.tgz 0ms (cache hit)
+524 http cache postgres-range@https://registry.npmjs.org/postgres-range/-/postgres-range-1.1.4.tgz 0ms (cache hit)
+525 http cache react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.55.0.tgz 0ms (cache hit)
+526 http cache recharts@https://registry.npmjs.org/recharts/-/recharts-2.15.2.tgz 0ms (cache hit)
+527 http cache postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-3.0.0.tgz 0ms (cache hit)
+528 http cache postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-2.1.0.tgz 0ms (cache hit)
+529 http cache react-icons@https://registry.npmjs.org/react-icons/-/react-icons-5.4.0.tgz 0ms (cache hit)
+530 http cache postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-3.0.2.tgz 0ms (cache hit)
+531 http cache postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-3.0.0.tgz 0ms (cache hit)
+532 http cache pg-types@https://registry.npmjs.org/pg-types/-/pg-types-4.0.2.tgz 0ms (cache hit)
+533 http cache passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz 0ms (cache hit)
+534 http cache obuf@https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz 0ms (cache hit)
+535 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.18.tgz 0ms (cache hit)
+536 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-11.13.0.tgz 0ms (cache hit)
+537 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-11.13.0.tgz 0ms (cache hit)
+538 http cache node-gyp-build@https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.3.tgz 0ms (cache hit)
+539 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+540 http cache modern-screenshot@https://registry.npmjs.org/modern-screenshot/-/modern-screenshot-4.6.0.tgz 0ms (cache hit)
+541 http cache memorystore@https://registry.npmjs.org/memorystore/-/memorystore-1.6.7.tgz 0ms (cache hit)
+542 http cache pg-numeric@https://registry.npmjs.org/pg-numeric/-/pg-numeric-1.0.2.tgz 0ms (cache hit)
+543 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+544 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.453.0.tgz 0ms (cache hit)
+545 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.6.tgz 0ms (cache hit)
+546 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+547 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.0.2.tgz 0ms (cache hit)
+548 http cache glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 0ms (cache hit)
+549 http cache express-session@https://registry.npmjs.org/express-session/-/express-session-1.18.2.tgz 0ms (cache hit)
+550 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.9.tgz 0ms (cache hit)
+551 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.8.1.tgz 0ms (cache hit)
+552 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.51.tgz 0ms (cache hit)
+553 http cache drizzle-zod@https://registry.npmjs.org/drizzle-zod/-/drizzle-zod-0.7.0.tgz 0ms (cache hit)
+554 http cache drizzle-orm@https://registry.npmjs.org/drizzle-orm/-/drizzle-orm-0.39.3.tgz 0ms (cache hit)
+555 http cache drizzle-kit@https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.8.tgz 0ms (cache hit)
+556 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-11.13.1.tgz 0ms (cache hit)
+557 http cache cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 0ms (cache hit)
+558 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001753.tgz 0ms (cache hit)
+559 http cache connect-pg-simple@https://registry.npmjs.org/connect-pg-simple/-/connect-pg-simple-10.0.0.tgz 0ms (cache hit)
+560 http cache bufferutil@https://registry.npmjs.org/bufferutil/-/bufferutil-4.1.0.tgz 0ms (cache hit)
+561 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.24.2.tgz 0ms (cache hit)
+562 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+563 http cache postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz 0ms (cache hit)
+564 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.18.tgz 0ms (cache hit)
+565 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz 0ms (cache hit)
+566 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz 0ms (cache hit)
+567 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz 0ms (cache hit)
+568 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+569 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz 0ms (cache hit)
+570 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 0ms (cache hit)
+571 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz 0ms (cache hit)
+572 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz 0ms (cache hit)
+573 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz 0ms (cache hit)
+574 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+575 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+576 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 0ms (cache hit)
+577 http cache cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz 1ms (cache hit)
+578 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz. Extracting by manifest.
+579 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+580 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.3.12.tgz. Extracting by manifest.
+581 silly tarball no local data for @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.5.13.tgz. Extracting by manifest.
+582 silly tarball no local data for @types/passport-strategy@https://registry.npmjs.org/@types/passport-strategy/-/passport-strategy-0.2.38.tgz. Extracting by manifest.
+583 silly tarball no local data for @types/pg@https://registry.npmjs.org/@types/pg/-/pg-8.11.6.tgz. Extracting by manifest.
+584 silly tarball no local data for @types/express-session@https://registry.npmjs.org/@types/express-session/-/express-session-1.18.0.tgz. Extracting by manifest.
+585 silly tarball no local data for @types/connect-pg-simple@https://registry.npmjs.org/@types/connect-pg-simple/-/connect-pg-simple-7.0.3.tgz. Extracting by manifest.
+586 silly tarball no local data for @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.6.tgz. Extracting by manifest.
+587 silly tarball no local data for @types/passport@https://registry.npmjs.org/@types/passport/-/passport-1.0.17.tgz. Extracting by manifest.
+588 silly tarball no local data for @types/passport-local@https://registry.npmjs.org/@types/passport-local/-/passport-local-1.0.38.tgz. Extracting by manifest.
+589 silly tarball no local data for @tailwindcss/vite@https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.18.tgz. Extracting by manifest.
+590 silly tarball no local data for @tailwindcss/typography@https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.15.tgz. Extracting by manifest.
+591 silly tarball no local data for @tanstack/react-query@https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.60.5.tgz. Extracting by manifest.
+592 silly tarball no local data for @tanstack/query-core@https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.60.5.tgz. Extracting by manifest.
+593 silly tarball no local data for @replit/vite-plugin-runtime-error-modal@https://registry.npmjs.org/@replit/vite-plugin-runtime-error-modal/-/vite-plugin-runtime-error-modal-0.0.3.tgz. Extracting by manifest.
+594 silly tarball no local data for @rollup/rollup-win32-x64-gnu@https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.53.5.tgz. Extracting by manifest.
+595 silly tarball no local data for @rollup/rollup-win32-x64-msvc@https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.5.tgz. Extracting by manifest.
+596 silly tarball no local data for @replit/vite-plugin-cartographer@https://registry.npmjs.org/@replit/vite-plugin-cartographer/-/vite-plugin-cartographer-0.4.10.tgz. Extracting by manifest.
+597 silly tarball no local data for @radix-ui/react-visually-hidden@https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.1.3.tgz. Extracting by manifest.
+598 silly tarball no local data for @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.1.1.tgz. Extracting by manifest.
+599 silly tarball no local data for @radix-ui/react-tooltip@https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.0.tgz. Extracting by manifest.
+600 silly tarball no local data for @replit/vite-plugin-dev-banner@https://registry.npmjs.org/@replit/vite-plugin-dev-banner/-/vite-plugin-dev-banner-0.1.1.tgz. Extracting by manifest.
+601 silly tarball no local data for @radix-ui/react-toggle-group@https://registry.npmjs.org/@radix-ui/react-toggle-group/-/react-toggle-group-1.1.3.tgz. Extracting by manifest.
+602 silly tarball no local data for @radix-ui/react-toggle@https://registry.npmjs.org/@radix-ui/react-toggle/-/react-toggle-1.1.3.tgz. Extracting by manifest.
+603 silly tarball no local data for @radix-ui/react-toast@https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.7.tgz. Extracting by manifest.
+604 silly tarball no local data for @radix-ui/react-tabs@https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.4.tgz. Extracting by manifest.
+605 silly tarball no local data for @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.1.4.tgz. Extracting by manifest.
+606 silly tarball no local data for @radix-ui/react-slider@https://registry.npmjs.org/@radix-ui/react-slider/-/react-slider-1.2.4.tgz. Extracting by manifest.
+607 silly tarball no local data for @radix-ui/react-separator@https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.3.tgz. Extracting by manifest.
+608 silly tarball no local data for @radix-ui/react-scroll-area@https://registry.npmjs.org/@radix-ui/react-scroll-area/-/react-scroll-area-1.2.4.tgz. Extracting by manifest.
+609 silly tarball no local data for @radix-ui/react-select@https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.1.7.tgz. Extracting by manifest.
+610 silly tarball no local data for @radix-ui/react-progress@https://registry.npmjs.org/@radix-ui/react-progress/-/react-progress-1.1.3.tgz. Extracting by manifest.
+611 silly tarball no local data for @radix-ui/react-roving-focus@https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.3.tgz. Extracting by manifest.
+612 silly tarball no local data for @radix-ui/react-radio-group@https://registry.npmjs.org/@radix-ui/react-radio-group/-/react-radio-group-1.2.4.tgz. Extracting by manifest.
+613 silly tarball no local data for @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.0.3.tgz. Extracting by manifest.
+614 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.3.tgz. Extracting by manifest.
+615 silly tarball no local data for @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.5.tgz. Extracting by manifest.
+616 silly tarball no local data for @radix-ui/react-popper@https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.3.tgz. Extracting by manifest.
+617 silly tarball no local data for @radix-ui/react-navigation-menu@https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.6.tgz. Extracting by manifest.
+618 silly tarball no local data for @radix-ui/react-menubar@https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.7.tgz. Extracting by manifest.
+619 silly tarball no local data for @radix-ui/react-popover@https://registry.npmjs.org/@radix-ui/react-popover/-/react-popover-1.1.7.tgz. Extracting by manifest.
+620 silly tarball no local data for @radix-ui/react-hover-card@https://registry.npmjs.org/@radix-ui/react-hover-card/-/react-hover-card-1.1.7.tgz. Extracting by manifest.
+621 silly tarball no local data for @radix-ui/react-menu@https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.7.tgz. Extracting by manifest.
+622 silly tarball no local data for @radix-ui/react-label@https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.3.tgz. Extracting by manifest.
+623 silly tarball no local data for @radix-ui/react-dropdown-menu@https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.7.tgz. Extracting by manifest.
+624 silly tarball no local data for @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.3.tgz. Extracting by manifest.
+625 silly tarball no local data for @radix-ui/react-context-menu@https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.7.tgz. Extracting by manifest.
+626 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.7.tgz. Extracting by manifest.
+627 silly tarball no local data for @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.6.tgz. Extracting by manifest.
+628 silly tarball no local data for @radix-ui/react-collection@https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.3.tgz. Extracting by manifest.
+629 silly tarball no local data for @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.4.tgz. Extracting by manifest.
+630 silly tarball no local data for @radix-ui/react-arrow@https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.3.tgz. Extracting by manifest.
+631 silly tarball no local data for @radix-ui/react-avatar@https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.4.tgz. Extracting by manifest.
+632 silly tarball no local data for @radix-ui/react-checkbox@https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.1.5.tgz. Extracting by manifest.
+633 silly tarball no local data for @radix-ui/react-accordion@https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.4.tgz. Extracting by manifest.
+634 silly tarball no local data for @radix-ui/react-aspect-ratio@https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.3.tgz. Extracting by manifest.
+635 silly tarball no local data for @radix-ui/react-alert-dialog@https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.7.tgz. Extracting by manifest.
+636 silly tarball no local data for @esbuild-kit/esm-loader@https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz. Extracting by manifest.
+637 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.27.0.tgz. Extracting by manifest.
+638 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz. Extracting by manifest.
+639 silly tarball no local data for zod-validation-error@https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-3.4.0.tgz. Extracting by manifest.
+640 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.18.0.tgz. Extracting by manifest.
+641 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+642 silly tarball no local data for yaml@https://registry.npmjs.org/yaml/-/yaml-2.6.0.tgz. Extracting by manifest.
+643 silly tarball no local data for wouter@https://registry.npmjs.org/wouter/-/wouter-3.3.5.tgz. Extracting by manifest.
+644 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-7.3.0.tgz. Extracting by manifest.
+645 silly tarball no local data for use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.2.tgz. Extracting by manifest.
+646 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz. Extracting by manifest.
+647 silly tarball no local data for tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.5.tgz. Extracting by manifest.
+648 silly tarball no local data for tw-animate-css@https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.2.5.tgz. Extracting by manifest.
+649 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz. Extracting by manifest.
+650 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+651 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.17.tgz. Extracting by manifest.
+652 silly tarball no local data for sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz. Extracting by manifest.
+653 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.8.tgz. Extracting by manifest.
+654 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.53.5.tgz. Extracting by manifest.
+655 silly tarball no local data for regexparam@https://registry.npmjs.org/regexparam/-/regexparam-3.0.0.tgz. Extracting by manifest.
+656 silly tarball no local data for postgres-range@https://registry.npmjs.org/postgres-range/-/postgres-range-1.1.4.tgz. Extracting by manifest.
+657 silly tarball no local data for react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.55.0.tgz. Extracting by manifest.
+658 silly tarball no local data for recharts@https://registry.npmjs.org/recharts/-/recharts-2.15.2.tgz. Extracting by manifest.
+659 silly tarball no local data for postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-3.0.0.tgz. Extracting by manifest.
+660 silly tarball no local data for postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-2.1.0.tgz. Extracting by manifest.
+661 silly tarball no local data for react-icons@https://registry.npmjs.org/react-icons/-/react-icons-5.4.0.tgz. Extracting by manifest.
+662 silly tarball no local data for postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-3.0.2.tgz. Extracting by manifest.
+663 silly tarball no local data for postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-3.0.0.tgz. Extracting by manifest.
+664 silly tarball no local data for pg-types@https://registry.npmjs.org/pg-types/-/pg-types-4.0.2.tgz. Extracting by manifest.
+665 silly tarball no local data for passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz. Extracting by manifest.
+666 silly tarball no local data for obuf@https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz. Extracting by manifest.
+667 silly tarball no local data for node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.18.tgz. Extracting by manifest.
+668 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-11.13.0.tgz. Extracting by manifest.
+669 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-11.13.0.tgz. Extracting by manifest.
+670 silly tarball no local data for node-gyp-build@https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.3.tgz. Extracting by manifest.
+671 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+672 silly tarball no local data for modern-screenshot@https://registry.npmjs.org/modern-screenshot/-/modern-screenshot-4.6.0.tgz. Extracting by manifest.
+673 silly tarball no local data for memorystore@https://registry.npmjs.org/memorystore/-/memorystore-1.6.7.tgz. Extracting by manifest.
+674 silly tarball no local data for pg-numeric@https://registry.npmjs.org/pg-numeric/-/pg-numeric-1.0.2.tgz. Extracting by manifest.
+675 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+676 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.453.0.tgz. Extracting by manifest.
+677 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.6.tgz. Extracting by manifest.
+678 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+679 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.0.2.tgz. Extracting by manifest.
+680 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz. Extracting by manifest.
+681 silly tarball no local data for express-session@https://registry.npmjs.org/express-session/-/express-session-1.18.2.tgz. Extracting by manifest.
+682 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.9.tgz. Extracting by manifest.
+683 silly tarball no local data for get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.8.1.tgz. Extracting by manifest.
+684 silly tarball no local data for electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.51.tgz. Extracting by manifest.
+685 silly tarball no local data for drizzle-zod@https://registry.npmjs.org/drizzle-zod/-/drizzle-zod-0.7.0.tgz. Extracting by manifest.
+686 silly tarball no local data for drizzle-orm@https://registry.npmjs.org/drizzle-orm/-/drizzle-orm-0.39.3.tgz. Extracting by manifest.
+687 silly tarball no local data for drizzle-kit@https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.8.tgz. Extracting by manifest.
+688 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-11.13.1.tgz. Extracting by manifest.
+689 silly tarball no local data for cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz. Extracting by manifest.
+690 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001753.tgz. Extracting by manifest.
+691 silly tarball no local data for connect-pg-simple@https://registry.npmjs.org/connect-pg-simple/-/connect-pg-simple-10.0.0.tgz. Extracting by manifest.
+692 silly tarball no local data for bufferutil@https://registry.npmjs.org/bufferutil/-/bufferutil-4.1.0.tgz. Extracting by manifest.
+693 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.24.2.tgz. Extracting by manifest.
+694 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz. Extracting by manifest.
+695 silly tarball no local data for postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz. Extracting by manifest.
+696 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.18.tgz. Extracting by manifest.
+697 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz. Extracting by manifest.
+698 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz. Extracting by manifest.
+699 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz. Extracting by manifest.
+700 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+701 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz. Extracting by manifest.
+702 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz. Extracting by manifest.
+703 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz. Extracting by manifest.
+704 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz. Extracting by manifest.
+705 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz. Extracting by manifest.
+706 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+707 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+708 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz. Extracting by manifest.
+709 silly tarball no local data for cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz. Extracting by manifest.
+710 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz 960ms (cache miss)
+711 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.1.18.tgz 1057ms (cache miss)
+712 http fetch GET 200 https://registry.npmjs.org/@types/passport/-/passport-1.0.17.tgz 1089ms (cache miss)
+713 http fetch GET 200 https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.6.tgz 1092ms (cache miss)
+714 http fetch GET 200 https://registry.npmjs.org/@types/connect-pg-simple/-/connect-pg-simple-7.0.3.tgz 1164ms (cache miss)
+715 http fetch GET 200 https://registry.npmjs.org/@types/passport-local/-/passport-local-1.0.38.tgz 1149ms (cache miss)
+716 http fetch GET 200 https://registry.npmjs.org/@types/passport-strategy/-/passport-strategy-0.2.38.tgz 1204ms (cache miss)
+717 http fetch GET 200 https://registry.npmjs.org/@types/express-session/-/express-session-1.18.0.tgz 1199ms (cache miss)
+718 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.1.tgz 1418ms (cache miss)
+719 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.3.12.tgz 1514ms (cache miss)
+720 http fetch GET 200 https://registry.npmjs.org/@types/ws/-/ws-8.5.13.tgz 1513ms (cache miss)
+721 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.1.3.tgz 1442ms (cache miss)
+722 http fetch GET 200 https://registry.npmjs.org/@replit/vite-plugin-dev-banner/-/vite-plugin-dev-banner-0.1.1.tgz 1691ms (cache miss)
+723 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.1.1.tgz 1821ms (cache miss)
+724 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-toggle/-/react-toggle-1.1.3.tgz 1858ms (cache miss)
+725 http fetch GET 200 https://registry.npmjs.org/@replit/vite-plugin-cartographer/-/vite-plugin-cartographer-0.4.10.tgz 1904ms (cache miss)
+726 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.2.0.tgz 1904ms (cache miss)
+727 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-toggle-group/-/react-toggle-group-1.1.3.tgz 1907ms (cache miss)
+728 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.15.tgz 1920ms (cache miss)
+729 http fetch GET 200 https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.60.5.tgz 2007ms (cache miss)
+730 http fetch GET 200 https://registry.npmjs.org/@types/pg/-/pg-8.11.6.tgz 2094ms (cache miss)
+731 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.7.tgz 2097ms (cache miss)
+732 http fetch GET 200 https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.60.5.tgz 2160ms (cache miss)
+733 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.1.3.tgz 2148ms (cache miss)
+734 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.1.4.tgz 2151ms (cache miss)
+735 http fetch GET 200 https://registry.npmjs.org/@replit/vite-plugin-runtime-error-modal/-/vite-plugin-runtime-error-modal-0.0.3.tgz 2372ms (cache miss)
+736 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-slider/-/react-slider-1.2.4.tgz 2370ms (cache miss)
+737 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-scroll-area/-/react-scroll-area-1.2.4.tgz 2865ms (cache miss)
+738 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.0.3.tgz 2903ms (cache miss)
+739 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.3.tgz 2906ms (cache miss)
+740 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-tabs/-/react-tabs-1.1.4.tgz 2962ms (cache miss)
+741 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.5.tgz 2954ms (cache miss)
+742 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-select/-/react-select-2.1.7.tgz 3007ms (cache miss)
+743 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.3.tgz 3058ms (cache miss)
+744 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-popover/-/react-popover-1.1.7.tgz 3155ms (cache miss)
+745 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.1.7.tgz 3460ms (cache miss)
+746 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.6.tgz 3512ms (cache miss)
+747 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.7.tgz 3564ms (cache miss)
+748 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-progress/-/react-progress-1.1.3.tgz 3626ms (cache miss)
+749 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-radio-group/-/react-radio-group-1.2.4.tgz 3772ms (cache miss)
+750 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.3.tgz 3923ms (cache miss)
+751 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-label/-/react-label-2.1.3.tgz 4023ms (cache miss)
+752 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.7.tgz 4069ms (cache miss)
+753 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.7.tgz 4482ms (cache miss)
+754 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.1.5.tgz 4477ms (cache miss)
+755 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.4.tgz 4531ms (cache miss)
+756 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.4.tgz 4529ms (cache miss)
+757 http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.5.tgz 4563ms (cache miss)
+758 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.3.tgz 4581ms (cache miss)
+759 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.3.tgz 4588ms (cache miss)
+760 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.4.tgz 4581ms (cache miss)
+761 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.3.tgz 4623ms (cache miss)
+762 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-hover-card/-/react-hover-card-1.1.7.tgz 4691ms (cache miss)
+763 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.3.tgz 4686ms (cache miss)
+764 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 4672ms (cache miss)
+765 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.2.tgz 5197ms (cache miss)
+766 http fetch GET 200 https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-3.4.0.tgz 5438ms (cache miss)
+767 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.6.tgz 5456ms (cache miss)
+768 http fetch GET 200 https://registry.npmjs.org/wouter/-/wouter-3.3.5.tgz 5487ms (cache miss)
+769 http fetch GET 200 https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.2.5.tgz 5529ms (cache miss)
+770 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.7.tgz 5851ms (cache miss)
+771 http fetch GET 200 https://registry.npmjs.org/yaml/-/yaml-2.6.0.tgz 5986ms (cache miss)
+772 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz 6108ms (cache miss)
+773 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.18.0.tgz 6258ms (cache miss)
+774 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.27.0.tgz 6260ms (cache miss)
+775 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.8.tgz 6254ms (cache miss)
+776 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.1.tgz 6355ms (cache miss)
+777 http fetch GET 200 https://registry.npmjs.org/postgres-range/-/postgres-range-1.1.4.tgz 6568ms (cache miss)
+778 http fetch GET 200 https://registry.npmjs.org/postgres-interval/-/postgres-interval-3.0.0.tgz 6566ms (cache miss)
+779 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.20.5.tgz 6668ms (cache miss)
+780 http fetch GET 200 https://registry.npmjs.org/postgres-date/-/postgres-date-2.1.0.tgz 7212ms (cache miss)
+781 http fetch GET 200 https://registry.npmjs.org/postgres-array/-/postgres-array-3.0.2.tgz 7356ms (cache miss)
+782 http fetch GET 200 https://registry.npmjs.org/pg-types/-/pg-types-4.0.2.tgz 7717ms (cache miss)
+783 http fetch GET 200 https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz 7748ms (cache miss)
+784 http fetch GET 200 https://registry.npmjs.org/obuf/-/obuf-1.1.2.tgz 7967ms (cache miss)
+785 http fetch GET 200 https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-3.0.0.tgz 8074ms (cache miss)
+786 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 8192ms (cache miss)
+787 http fetch GET 200 https://registry.npmjs.org/node-releases/-/node-releases-2.0.18.tgz 8225ms (cache miss)
+788 http fetch GET 200 https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz 8431ms (cache miss)
+789 http fetch GET 200 https://registry.npmjs.org/regexparam/-/regexparam-3.0.0.tgz 8444ms (cache miss)
+790 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-11.13.0.tgz 8443ms (cache miss)
+791 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-11.13.0.tgz 9050ms (cache miss)
+792 http fetch GET 200 https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.3.tgz 9092ms (cache miss)
+793 http fetch GET 200 https://registry.npmjs.org/pg-numeric/-/pg-numeric-1.0.2.tgz 9140ms (cache miss)
+794 http fetch GET 200 https://registry.npmjs.org/modern-screenshot/-/modern-screenshot-4.6.0.tgz 9159ms (cache miss)
+795 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 9245ms (cache miss)
+796 http fetch GET 200 https://registry.npmjs.org/memorystore/-/memorystore-1.6.7.tgz 9259ms (cache miss)
+797 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 9273ms (cache miss)
+798 http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.53.5.tgz 9979ms (cache miss)
+799 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.0.2.tgz 9872ms (cache miss)
+800 http fetch GET 200 https://registry.npmjs.org/express-session/-/express-session-1.18.2.tgz 10274ms (cache miss)
+801 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.9.tgz 10782ms (cache miss)
+802 http fetch GET 200 https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.8.1.tgz 10875ms (cache miss)
+803 http fetch GET 200 https://registry.npmjs.org/drizzle-zod/-/drizzle-zod-0.7.0.tgz 11366ms (cache miss)
+804 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.51.tgz 12272ms (cache miss)
+805 http fetch GET 200 https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.55.0.tgz 12371ms (cache miss)
+806 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-4.53.5.tgz 13562ms (cache miss)
+807 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-7.3.0.tgz 13841ms (cache miss)
+808 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 13842ms (cache miss)
+809 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 14718ms (cache miss)
+810 http fetch GET 200 https://registry.npmjs.org/connect-pg-simple/-/connect-pg-simple-10.0.0.tgz 15042ms (cache miss)
+811 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.6.tgz 15124ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.24.2.tgz 15861ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz 16561ms (cache miss)
+814 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.7.tgz 16776ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz 17163ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.17.tgz 17888ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/bufferutil/-/bufferutil-4.1.0.tgz 17941ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz 17985ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/recharts/-/recharts-2.15.2.tgz 18245ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 18187ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 18447ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz 18711ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz 18750ms (cache miss)
+824 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 18899ms (cache miss)
+825 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 19050ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz 19468ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz 19622ms (cache miss)
+828 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 19671ms (cache miss)
+829 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz 19733ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 20385ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 21164ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001753.tgz 21644ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.18.tgz 21778ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/drizzle-orm/-/drizzle-orm-0.39.3.tgz 22378ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-11.13.1.tgz 27976ms (cache miss)
+836 http fetch GET 200 https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.8.tgz 30715ms (cache miss)
+837 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.453.0.tgz 33962ms (cache miss)
+838 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz 45723ms (cache miss)
+839 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz 48282ms (cache miss)
+840 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz 53180ms (cache miss)
+841 http fetch GET 200 https://registry.npmjs.org/react-icons/-/react-icons-5.4.0.tgz 92278ms (cache miss)
+842 info run bufferutil@4.1.0 install node_modules/bufferutil node-gyp-build
+843 info run bufferutil@4.1.0 install { code: 0, signal: null }
+844 info run esbuild@0.25.9 postinstall node_modules/esbuild node install.js
+845 info run esbuild@0.27.2 postinstall node_modules/@esbuild-kit/esm-loader/node_modules/esbuild node install.js
+846 info run esbuild@0.27.2 postinstall node_modules/vite/node_modules/esbuild node install.js
+847 info run esbuild@0.27.2 postinstall { code: 0, signal: null }
+848 info run esbuild@0.27.2 postinstall { code: 0, signal: null }
+849 info run esbuild@0.25.9 postinstall { code: 0, signal: null }
+850 silly CHANGE node_modules/@tailwindcss/node/node_modules/jiti
+851 silly CHANGE node_modules/@vitejs/plugin-react
+852 silly CHANGE node_modules/@types/ws
+853 silly CHANGE node_modules/@types/react-dom
+854 silly CHANGE node_modules/@types/react
+855 silly CHANGE node_modules/@types/pg
+856 silly CHANGE node_modules/@types/passport-strategy
+857 silly CHANGE node_modules/@types/passport-local
+858 silly CHANGE node_modules/@types/passport
+859 silly CHANGE node_modules/@types/express-session
+860 silly CHANGE node_modules/@types/connect-pg-simple
+861 silly CHANGE node_modules/@types/babel__traverse
+862 silly CHANGE node_modules/@tanstack/react-query
+863 silly CHANGE node_modules/@tanstack/query-core
+864 silly CHANGE node_modules/@tailwindcss/vite
+865 silly ADD node_modules/@tailwindcss/vite/node_modules/tailwindcss
+866 silly CHANGE node_modules/@tailwindcss/typography
+867 silly ADD node_modules/@tailwindcss/typography/node_modules/postcss-selector-parser
+868 silly CHANGE node_modules/@tailwindcss/oxide-wasm32-wasi
+869 silly CHANGE node_modules/@tailwindcss/oxide-win32-arm64-msvc
+870 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-musl
+871 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-gnu
+872 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-musl
+873 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-gnu
+874 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+875 silly CHANGE node_modules/@tailwindcss/oxide-freebsd-x64
+876 silly CHANGE node_modules/@tailwindcss/oxide-darwin-x64
+877 silly CHANGE node_modules/@tailwindcss/oxide-darwin-arm64
+878 silly CHANGE node_modules/@tailwindcss/oxide-android-arm64
+879 silly CHANGE node_modules/@rollup/rollup-win32-x64-msvc
+880 silly CHANGE node_modules/@rollup/rollup-win32-x64-gnu
+881 silly CHANGE node_modules/@rollup/rollup-win32-ia32-msvc
+882 silly CHANGE node_modules/@rollup/rollup-win32-arm64-msvc
+883 silly CHANGE node_modules/@rollup/rollup-openharmony-arm64
+884 silly CHANGE node_modules/@rollup/rollup-linux-x64-musl
+885 silly CHANGE node_modules/@rollup/rollup-linux-x64-gnu
+886 silly CHANGE node_modules/@rollup/rollup-linux-s390x-gnu
+887 silly CHANGE node_modules/@rollup/rollup-linux-riscv64-musl
+888 silly CHANGE node_modules/@rollup/rollup-linux-riscv64-gnu
+889 silly CHANGE node_modules/@rollup/rollup-linux-ppc64-gnu
+890 silly CHANGE node_modules/@rollup/rollup-linux-loong64-gnu
+891 silly CHANGE node_modules/@rollup/rollup-linux-arm64-musl
+892 silly CHANGE node_modules/@rollup/rollup-linux-arm64-gnu
+893 silly CHANGE node_modules/@rollup/rollup-linux-arm-musleabihf
+894 silly CHANGE node_modules/@rollup/rollup-linux-arm-gnueabihf
+895 silly CHANGE node_modules/@rollup/rollup-freebsd-x64
+896 silly CHANGE node_modules/@rollup/rollup-freebsd-arm64
+897 silly CHANGE node_modules/@rollup/rollup-darwin-x64
+898 silly CHANGE node_modules/@rollup/rollup-darwin-arm64
+899 silly CHANGE node_modules/@rollup/rollup-android-arm64
+900 silly CHANGE node_modules/@rollup/rollup-android-arm-eabi
+901 silly CHANGE node_modules/@replit/vite-plugin-runtime-error-modal
+902 silly CHANGE node_modules/@replit/vite-plugin-dev-banner
+903 silly CHANGE node_modules/@replit/vite-plugin-cartographer
+904 silly CHANGE node_modules/@radix-ui/react-visually-hidden
+905 silly CHANGE node_modules/@radix-ui/react-use-controllable-state
+906 silly CHANGE node_modules/@radix-ui/react-tooltip
+907 silly CHANGE node_modules/@radix-ui/react-toggle-group
+908 silly CHANGE node_modules/@radix-ui/react-toggle
+909 silly CHANGE node_modules/@radix-ui/react-toast
+910 silly CHANGE node_modules/@radix-ui/react-tabs
+911 silly CHANGE node_modules/@radix-ui/react-switch
+912 silly CHANGE node_modules/@radix-ui/react-slider
+913 silly CHANGE node_modules/@radix-ui/react-separator
+914 silly CHANGE node_modules/@radix-ui/react-select
+915 silly CHANGE node_modules/@radix-ui/react-scroll-area
+916 silly CHANGE node_modules/@radix-ui/react-roving-focus
+917 silly CHANGE node_modules/@radix-ui/react-radio-group
+918 silly CHANGE node_modules/@radix-ui/react-progress
+919 silly CHANGE node_modules/@radix-ui/react-primitive
+920 silly CHANGE node_modules/@radix-ui/react-presence
+921 silly CHANGE node_modules/@radix-ui/react-portal
+922 silly CHANGE node_modules/@radix-ui/react-popper
+923 silly CHANGE node_modules/@radix-ui/react-popover
+924 silly CHANGE node_modules/@radix-ui/react-navigation-menu
+925 silly CHANGE node_modules/@radix-ui/react-menubar
+926 silly CHANGE node_modules/@radix-ui/react-menu
+927 silly CHANGE node_modules/@radix-ui/react-label
+928 silly CHANGE node_modules/@radix-ui/react-hover-card
+929 silly CHANGE node_modules/@radix-ui/react-focus-scope
+930 silly CHANGE node_modules/@radix-ui/react-dropdown-menu
+931 silly CHANGE node_modules/@radix-ui/react-dismissable-layer
+932 silly CHANGE node_modules/@radix-ui/react-dialog
+933 silly CHANGE node_modules/@radix-ui/react-context-menu
+934 silly CHANGE node_modules/@radix-ui/react-collection
+935 silly CHANGE node_modules/@radix-ui/react-collapsible
+936 silly CHANGE node_modules/@radix-ui/react-arrow
+937 silly CHANGE node_modules/@radix-ui/react-avatar
+938 silly CHANGE node_modules/@radix-ui/react-checkbox
+939 silly CHANGE node_modules/@radix-ui/react-aspect-ratio
+940 silly CHANGE node_modules/@radix-ui/react-accordion
+941 silly CHANGE node_modules/@radix-ui/react-alert-dialog
+942 silly CHANGE node_modules/@esbuild-kit/esm-loader
+943 silly ADD node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/win32-x64
+944 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/win32-ia32
+945 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/win32-arm64
+946 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/sunos-x64
+947 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openharmony-arm64
+948 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openbsd-x64
+949 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/openbsd-arm64
+950 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/netbsd-x64
+951 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/netbsd-arm64
+952 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-x64
+953 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-s390x
+954 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-riscv64
+955 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-ppc64
+956 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-mips64el
+957 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-loong64
+958 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-ia32
+959 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/freebsd-x64
+960 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-arm64
+961 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/linux-arm
+962 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/freebsd-arm64
+963 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/darwin-x64
+964 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/darwin-arm64
+965 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-x64
+966 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-arm64
+967 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/android-arm
+968 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/@esbuild/aix-ppc64
+969 silly CHANGE node_modules/@esbuild-kit/esm-loader/node_modules/esbuild
+970 silly CHANGE node_modules/@esbuild/win32-ia32
+971 silly CHANGE node_modules/@esbuild/win32-arm64
+972 silly CHANGE node_modules/@esbuild/sunos-x64
+973 silly CHANGE node_modules/@esbuild/openharmony-arm64
+974 silly CHANGE node_modules/@esbuild/openbsd-x64
+975 silly CHANGE node_modules/@esbuild/openbsd-arm64
+976 silly CHANGE node_modules/@esbuild/netbsd-x64
+977 silly CHANGE node_modules/@esbuild/netbsd-arm64
+978 silly CHANGE node_modules/@esbuild/linux-x64
+979 silly CHANGE node_modules/@esbuild/linux-s390x
+980 silly CHANGE node_modules/@esbuild/linux-riscv64
+981 silly CHANGE node_modules/@esbuild/linux-ppc64
+982 silly CHANGE node_modules/@esbuild/linux-mips64el
+983 silly CHANGE node_modules/@esbuild/linux-arm64
+984 silly CHANGE node_modules/@esbuild/linux-loong64
+985 silly CHANGE node_modules/@esbuild/linux-ia32
+986 silly CHANGE node_modules/@esbuild/linux-arm
+987 silly CHANGE node_modules/@esbuild/freebsd-x64
+988 silly CHANGE node_modules/@esbuild/freebsd-arm64
+989 silly CHANGE node_modules/@esbuild/darwin-x64
+990 silly CHANGE node_modules/@esbuild/darwin-arm64
+991 silly CHANGE node_modules/@esbuild/android-x64
+992 silly CHANGE node_modules/@esbuild/android-arm64
+993 silly CHANGE node_modules/@esbuild/android-arm
+994 silly CHANGE node_modules/@esbuild/aix-ppc64
+995 silly CHANGE node_modules/@babel/runtime
+996 silly CHANGE node_modules/@babel/parser
+997 silly CHANGE node_modules/zod-validation-error
+998 silly CHANGE node_modules/yaml
+999 silly CHANGE node_modules/ws
+1000 silly CHANGE node_modules/wouter
+1001 silly CHANGE node_modules/which
+1002 silly CHANGE node_modules/vite
+1003 silly ADD node_modules/vite/node_modules/picomatch
+1004 silly ADD node_modules/vite/node_modules/fdir
+1005 silly ADD node_modules/vite/node_modules/@esbuild/win32-x64
+1006 silly CHANGE node_modules/vite/node_modules/@esbuild/win32-ia32
+1007 silly CHANGE node_modules/vite/node_modules/@esbuild/win32-arm64
+1008 silly CHANGE node_modules/vite/node_modules/@esbuild/sunos-x64
+1009 silly CHANGE node_modules/vite/node_modules/@esbuild/openharmony-arm64
+1010 silly CHANGE node_modules/vite/node_modules/@esbuild/openbsd-x64
+1011 silly CHANGE node_modules/vite/node_modules/@esbuild/openbsd-arm64
+1012 silly CHANGE node_modules/vite/node_modules/@esbuild/netbsd-x64
+1013 silly CHANGE node_modules/vite/node_modules/@esbuild/netbsd-arm64
+1014 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-x64
+1015 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-s390x
+1016 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-riscv64
+1017 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-ppc64
+1018 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-mips64el
+1019 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-loong64
+1020 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-ia32
+1021 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-arm64
+1022 silly CHANGE node_modules/vite/node_modules/@esbuild/linux-arm
+1023 silly CHANGE node_modules/vite/node_modules/@esbuild/freebsd-x64
+1024 silly CHANGE node_modules/vite/node_modules/@esbuild/freebsd-arm64
+1025 silly CHANGE node_modules/vite/node_modules/@esbuild/darwin-arm64
+1026 silly CHANGE node_modules/vite/node_modules/@esbuild/android-x64
+1027 silly CHANGE node_modules/vite/node_modules/@esbuild/darwin-x64
+1028 silly CHANGE node_modules/vite/node_modules/@esbuild/android-arm
+1029 silly CHANGE node_modules/vite/node_modules/@esbuild/android-arm64
+1030 silly CHANGE node_modules/vite/node_modules/@esbuild/aix-ppc64
+1031 silly CHANGE node_modules/vite/node_modules/esbuild
+1032 silly CHANGE node_modules/use-sync-external-store
+1033 silly CHANGE node_modules/update-browserslist-db
+1034 silly CHANGE node_modules/typescript
+1035 silly CHANGE node_modules/tw-animate-css
+1036 silly CHANGE node_modules/tsx
+1037 silly CHANGE node_modules/tailwindcss
+1038 silly CHANGE node_modules/sucrase
+1039 silly CHANGE node_modules/semver
+1040 silly CHANGE node_modules/rollup
+1041 silly CHANGE node_modules/resolve
+1042 silly CHANGE node_modules/regexparam
+1043 silly CHANGE node_modules/recharts
+1044 silly CHANGE node_modules/react-icons
+1045 silly CHANGE node_modules/react-hook-form
+1046 silly CHANGE node_modules/postgres-range
+1047 silly CHANGE node_modules/postgres-interval
+1048 silly CHANGE node_modules/postgres-date
+1049 silly CHANGE node_modules/postgres-bytea
+1050 silly CHANGE node_modules/postgres-array
+1051 silly CHANGE node_modules/pg-types
+1052 silly CHANGE node_modules/pg-numeric
+1053 silly CHANGE node_modules/passport-local
+1054 silly CHANGE node_modules/obuf
+1055 silly CHANGE node_modules/node-releases
+1056 silly CHANGE node_modules/node-gyp-build
+1057 silly CHANGE node_modules/nanoid
+1058 silly CHANGE node_modules/motion-dom
+1059 silly CHANGE node_modules/motion-utils
+1060 silly CHANGE node_modules/modern-screenshot
+1061 silly CHANGE node_modules/memorystore
+1062 silly ADD node_modules/memorystore/node_modules/yallist
+1063 silly ADD node_modules/memorystore/node_modules/lru-cache
+1064 silly CHANGE node_modules/lucide-react
+1065 silly CHANGE node_modules/loose-envify
+1066 silly CHANGE node_modules/lightningcss-win32-arm64-msvc
+1067 silly CHANGE node_modules/lightningcss-linux-x64-musl
+1068 silly CHANGE node_modules/lightningcss-linux-x64-gnu
+1069 silly CHANGE node_modules/lightningcss-linux-arm64-musl
+1070 silly CHANGE node_modules/lightningcss-linux-arm64-gnu
+1071 silly CHANGE node_modules/lightningcss-linux-arm-gnueabihf
+1072 silly CHANGE node_modules/lightningcss-freebsd-x64
+1073 silly CHANGE node_modules/lightningcss-darwin-x64
+1074 silly CHANGE node_modules/lightningcss-darwin-arm64
+1075 silly CHANGE node_modules/lightningcss-android-arm64
+1076 silly CHANGE node_modules/json5
+1077 silly CHANGE node_modules/jsesc
+1078 silly CHANGE node_modules/jiti
+1079 silly CHANGE node_modules/get-tsconfig
+1080 silly CHANGE node_modules/glob
+1081 silly CHANGE node_modules/fsevents
+1082 silly CHANGE node_modules/framer-motion
+1083 silly CHANGE node_modules/express-session
+1084 silly ADD node_modules/express-session/node_modules/ms
+1085 silly ADD node_modules/express-session/node_modules/debug
+1086 silly ADD node_modules/express-session/node_modules/cookie-signature
+1087 silly ADD node_modules/express-session/node_modules/cookie
+1088 silly CHANGE node_modules/esbuild
+1089 silly CHANGE node_modules/electron-to-chromium
+1090 silly CHANGE node_modules/drizzle-zod
+1091 silly CHANGE node_modules/drizzle-orm
+1092 silly CHANGE node_modules/drizzle-kit
+1093 silly CHANGE node_modules/cssesc
+1094 silly CHANGE node_modules/connect-pg-simple
+1095 silly CHANGE node_modules/caniuse-lite
+1096 silly CHANGE node_modules/bufferutil
+1097 silly CHANGE node_modules/browserslist
+1098 silly CHANGE node_modules/autoprefixer
+1099 verbose cwd D:\ملف الشخصي\Untitled-Frame-4-1
+1100 verbose os Windows_NT 10.0.26200
+1101 verbose node v22.19.0
+1102 verbose npm  v11.6.0
+1103 verbose exit 0
+1104 info ok

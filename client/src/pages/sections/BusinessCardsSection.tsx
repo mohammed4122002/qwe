@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const awardsData = [
@@ -37,7 +37,7 @@ export const BusinessCardsSection = (): JSX.Element => {
         <div className="flex flex-col items-center gap-16">
           <div className="flex flex-col items-center gap-6 w-full">
             <div className="flex items-center justify-center">
-              <Badge className="h-10 px-4 py-2 bg-[#edecfa] hover:bg-[#edecfa] text-[#282073] rounded-full gap-2 [font-family:'Almarai',Helvetica] font-normal text-sm">
+              <Badge className="h-10 px-4 py-2 bg-[#edecfa] hover:bg-[#edecfa] text-[#282073] rounded-full gap-2 [font-family:'Tajawal',sans-serif] font-normal text-sm">
                 <img
                   className="w-[16.33px] h-6"
                   alt="Icon"
@@ -47,11 +47,11 @@ export const BusinessCardsSection = (): JSX.Element => {
               </Badge>
             </div>
 
-            <h2 className="[font-family:'Almarai',Helvetica] font-bold text-[#1d293b] text-4xl text-center [direction:rtl]">
+            <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1d293b] text-4xl text-center [direction:rtl]">
               التقدير والجوائز
             </h2>
 
-            <p className="[font-family:'Almarai',Helvetica] font-normal text-[#64738b] text-base text-center max-w-lg [direction:rtl]">
+            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#64738b] text-base text-center max-w-lg [direction:rtl]">
               تقدير دولي لمسيرة حافلة بالإنجازات والنجاحات
             </p>
           </div>
@@ -71,15 +71,15 @@ export const BusinessCardsSection = (): JSX.Element => {
                     src={award.icon}
                   />
 
-                  <Badge className="h-6 px-3 py-1 bg-[#d9d5f4] hover:bg-[#d9d5f4] text-[#362a9b] rounded-full [font-family:'Almarai',Helvetica] font-bold text-xs">
+                  <Badge className="h-6 px-3 py-1 bg-[#d9d5f4] hover:bg-[#d9d5f4] text-[#362a9b] rounded-full [font-family:'Tajawal',sans-serif] font-bold text-xs">
                     {award.year}
                   </Badge>
 
-                  <h3 className="[font-family:'Almarai',Helvetica] font-normal text-[#1d293b] text-base text-center [direction:rtl]">
+                  <h3 className="[font-family:'Tajawal',sans-serif] font-normal text-[#1d293b] text-base text-center [direction:rtl]">
                     {award.title}
                   </h3>
 
-                  <p className="[font-family:'Almarai',Helvetica] font-normal text-[#94a2b8] text-sm text-center [direction:rtl]">
+                  <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#94a2b8] text-sm text-center [direction:rtl]">
                     {award.subtitle}
                   </p>
                 </CardContent>
@@ -91,3 +91,5 @@ export const BusinessCardsSection = (): JSX.Element => {
     </section>
   );
 };
+
+

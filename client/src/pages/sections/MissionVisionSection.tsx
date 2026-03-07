@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -24,26 +24,26 @@ export const MissionVisionSection = (): JSX.Element => {
           <div className="flex flex-col w-full lg:w-[520px] items-end space-y-6">
             <Badge className="h-auto bg-[#edecfa] text-[#282073] hover:bg-[#edecfa] px-4 py-2 rounded-full">
               <img className="w-4 h-6" alt="I" src="/figmaAssets/i-458.svg" />
-              <span className="[font-family:'Almarai',Helvetica] font-normal text-sm [direction:rtl]">
+              <span className="[font-family:'Tajawal',sans-serif] font-normal text-sm [direction:rtl]">
                 من أنا
               </span>
             </Badge>
 
             <div className="flex flex-col items-end space-y-0">
-              <h2 className="[font-family:'Almarai',Helvetica] font-bold text-[#362a9b] text-4xl leading-10 [direction:rtl]">
+              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#362a9b] text-4xl leading-10 [direction:rtl]">
                 نحو القمة
               </h2>
-              <h2 className="[font-family:'Almarai',Helvetica] font-bold text-[#1d293b] text-4xl leading-10 [direction:rtl]">
+              <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1d293b] text-4xl leading-10 [direction:rtl]">
                 قصة شغف وإصرار
               </h2>
             </div>
 
-            <p className="[font-family:'Almarai',Helvetica] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
+            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
               بدأت رحلتي في عالم ريادة الأعمال منذ أكثر من 15 عاما، حيث آمنت
               دائما بأن التكنولوجيا هي المفتاح لتحويل الأحلام إلى واقع ملموس.
             </p>
 
-            <p className="[font-family:'Almarai',Helvetica] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
+            <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#64738b] text-base leading-[26px] text-right [direction:rtl]">
               أسست عدة شركات ناجحة في مجالات التسويق الرقمي والإنتاج الإعلامي
               والحلول التقنية، وأفخر بأنني ساهمت في نمو أكثر من 500 مشروع ناجح
               حول العالم العربي.
@@ -55,7 +55,7 @@ export const MissionVisionSection = (): JSX.Element => {
                   key={index}
                   className="flex items-center justify-end gap-3 w-full"
                 >
-                  <span className="[font-family:'Almarai',Helvetica] font-normal text-slate-600 text-sm leading-5 [direction:rtl]">
+                  <span className="[font-family:'Tajawal',sans-serif] font-normal text-slate-600 text-sm leading-5 [direction:rtl]">
                     {achievement.text}
                   </span>
                   <img
@@ -71,7 +71,7 @@ export const MissionVisionSection = (): JSX.Element => {
               variant="link"
               className="h-auto p-0 text-[#362a9b] hover:no-underline"
             >
-              <span className="[font-family:'Almarai',Helvetica] font-normal text-base leading-6 [direction:rtl]">
+              <span className="[font-family:'Tajawal',sans-serif] font-normal text-base leading-6 [direction:rtl]">
                 تعرف على المزيد
               </span>
               <img
@@ -92,7 +92,7 @@ export const MissionVisionSection = (): JSX.Element => {
                       alt="Icon"
                       src="/figmaAssets/icon-508.svg"
                     />
-                    <p className="[font-family:'Almarai',Helvetica] font-normal text-white text-sm leading-5 text-right [direction:rtl] absolute top-8 right-[95px]">
+                    <p className="[font-family:'Tajawal',sans-serif] font-normal text-white text-sm leading-5 text-right [direction:rtl] absolute top-8 right-[95px]">
                       قائد معتمد دوليا
                     </p>
                   </CardContent>
@@ -122,10 +122,10 @@ export const MissionVisionSection = (): JSX.Element => {
 
                 <Card className="w-full bg-[#362a9b] border-0 rounded-2xl">
                   <CardContent className="p-6 flex flex-col items-end space-y-1">
-                    <h3 className="[font-family:'Almarai',Helvetica] font-bold text-white text-3xl leading-9 text-right">
+                    <h3 className="[font-family:'Tajawal',sans-serif] font-bold text-white text-3xl leading-9 text-right">
                       15+
                     </h3>
-                    <p className="[font-family:'Almarai',Helvetica] font-normal text-[#d9d5f4] text-sm leading-5 [direction:rtl]">
+                    <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#d9d5f4] text-sm leading-5 [direction:rtl]">
                       سنة من الخبرة
                     </p>
                   </CardContent>
@@ -138,3 +138,5 @@ export const MissionVisionSection = (): JSX.Element => {
     </section>
   );
 };
+
+

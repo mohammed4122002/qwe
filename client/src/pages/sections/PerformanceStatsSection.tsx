@@ -1,4 +1,4 @@
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+﻿import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
 const decorativeDots = [
@@ -39,20 +39,20 @@ export const PerformanceStatsSection = (): JSX.Element => {
                 />
 
                 <blockquote className="space-y-0 text-center">
-                  <p className="font-normal text-white text-3xl tracking-[0] leading-9 [direction:rtl] [font-family:'Almarai',Helvetica]">
+                  <p className="font-normal text-white text-3xl tracking-[0] leading-9 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                     أؤمن بأن النجاح الحقيقي ليس في بناء شركات عظيمة فحسب، بل في
                   </p>
-                  <p className="font-normal text-white text-3xl tracking-[0] leading-[42px] [direction:rtl] [font-family:'Almarai',Helvetica]">
+                  <p className="font-normal text-white text-3xl tracking-[0] leading-[42px] [direction:rtl] [font-family:'Tajawal',sans-serif]">
                     صناعة قادة يصنعون الفرق ويلهمون الآخرين
                   </p>
                 </blockquote>
 
                 <div className="flex items-center gap-4">
                   <div className="flex flex-col items-end space-y-0">
-                    <p className="font-normal text-white text-lg tracking-[0] leading-7 [direction:rtl] [font-family:'Almarai',Helvetica]">
+                    <p className="font-normal text-white text-lg tracking-[0] leading-7 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       محمود الأغواني
                     </p>
-                    <p className="font-normal text-[#d9d5f4] text-sm tracking-[0] leading-5 [direction:rtl] [font-family:'Almarai',Helvetica]">
+                    <p className="font-normal text-[#d9d5f4] text-sm tracking-[0] leading-5 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       المؤسس والرئيس التنفيذي
                     </p>
                   </div>
@@ -84,3 +84,5 @@ export const PerformanceStatsSection = (): JSX.Element => {
     </section>
   );
 };
+
+

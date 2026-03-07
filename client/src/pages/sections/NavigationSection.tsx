@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+﻿import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 const navigationItems = [
@@ -26,7 +26,7 @@ export const NavigationSection = (): JSX.Element => {
                     alt="Contact icon"
                     src="/figmaAssets/i-496.svg"
                   />
-                  <span className="[font-family:'Almarai',Helvetica] font-normal text-white text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl]">
+                  <span className="[font-family:'Tajawal',sans-serif] font-normal text-white text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl]">
                     تواصل معي
                   </span>
                 </div>
@@ -48,7 +48,7 @@ export const NavigationSection = (): JSX.Element => {
                   variant="ghost"
                   className="h-10 px-5 py-2.5 rounded-xl hover:bg-transparent relative"
                 >
-                  <span className="[font-family:'Almarai',Helvetica] font-normal text-slate-600 text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl]">
+                  <span className="[font-family:'Tajawal',sans-serif] font-normal text-slate-600 text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl]">
                     {item.label}
                   </span>
                   <div
@@ -61,12 +61,12 @@ export const NavigationSection = (): JSX.Element => {
             <div className="flex items-center justify-end gap-3">
               <div className="flex flex-col items-end">
                 <div className="flex items-center justify-end h-7">
-                  <h2 className="[font-family:'Almarai',Helvetica] font-bold text-[#1d293b] text-lg tracking-[0] leading-7 whitespace-nowrap [direction:rtl]">
+                  <h2 className="[font-family:'Tajawal',sans-serif] font-bold text-[#1d293b] text-lg tracking-[0] leading-7 whitespace-nowrap [direction:rtl]">
                     محمود الأغواني
                   </h2>
                 </div>
                 <div className="flex items-center justify-end h-4">
-                  <p className="[font-family:'Almarai',Helvetica] font-normal text-[#94a2b8] text-xs text-right tracking-[0] leading-4 whitespace-nowrap">
+                  <p className="[font-family:'Tajawal',sans-serif] font-normal text-[#94a2b8] text-xs text-right tracking-[0] leading-4 whitespace-nowrap">
                     CEO &amp; Founder
                   </p>
                 </div>
@@ -78,3 +78,5 @@ export const NavigationSection = (): JSX.Element => {
     </nav>
   );
 };
+
+
