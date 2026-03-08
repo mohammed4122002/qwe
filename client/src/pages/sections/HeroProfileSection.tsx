@@ -2,6 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SOCIAL_LINKS, scrollToSection } from "@/lib/site";
 import type { CSSProperties } from "react";
 
 const statsCards = [
@@ -31,14 +32,6 @@ const statsCards = [
   },
 ];
 
-const LINKEDIN_URL = "https://linkedin.com/in/mahmoudalaghawani";
-const X_URL = "https://x.com/Mahmoud_Aghawni";
-
-const socialLinks = [
-  { icon: "/figmaAssets/a-184.svg", alt: "LinkedIn", href: LINKEDIN_URL },
-  { icon: "/figmaAssets/a-181.svg", alt: "X", href: X_URL },
-];
-
 const companies = [
   { name: "Aysel Tech", icon: "/figmaAssets/i-221.svg" },
   { name: "Aysel Media", icon: "/figmaAssets/i-215.svg" },
@@ -54,12 +47,6 @@ const clientAvatars = [
 
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
-
-const scrollToSection = (targetId: string): void => {
-  const element = document.getElementById(targetId);
-  if (!element) return;
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
-};
 
 export const HeroProfileSection = (): JSX.Element => {
   return (
@@ -258,7 +245,7 @@ export const HeroProfileSection = (): JSX.Element => {
               </div>
 
               <div className="flex items-center justify-end gap-3 pt-6">
-                {socialLinks.map((socialLink, index) => (
+                {SOCIAL_LINKS.map((socialLink, index) => (
                   <a
                     key={index}
                     href={socialLink.href}
@@ -354,3 +341,4 @@ export const HeroProfileSection = (): JSX.Element => {
     </section>
   );
 };
+

@@ -1,6 +1,7 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { scrollToSection } from "@/lib/site";
 import type { CSSProperties } from "react";
 
 const serviceCards = [
@@ -53,12 +54,6 @@ const companyCards = [
 
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
-
-const scrollToSection = (targetId: string): void => {
-  const element = document.getElementById(targetId);
-  if (!element) return;
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
-};
 
 export const ServicesSection = (): JSX.Element => {
   return (
@@ -155,7 +150,7 @@ export const ServicesSection = (): JSX.Element => {
               {companyCards.map((company, index) => (
                 <Card
                   key={index}
-                  className="flex flex-col w-full sm:w-[352px] items-end p-[33px] bg-white rounded-3xl overflow-hidden border border-slate-100 hover:shadow-lg transition-shadow animate-fade-up opacity-0"
+                  className="flex flex-col w-[352px] items-end p-[33px] bg-white rounded-3xl overflow-hidden border border-slate-100 hover:shadow-lg transition-shadow animate-fade-up opacity-0"
                   style={fadeDelay(0.18 + index * 0.08)}
                 >
                   <CardContent className="p-0 flex flex-col items-end gap-2 w-full">
@@ -190,3 +185,4 @@ export const ServicesSection = (): JSX.Element => {
     </section>
   );
 };
+

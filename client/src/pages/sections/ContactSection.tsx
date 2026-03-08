@@ -1,6 +1,7 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { scrollToSection } from "@/lib/site";
 import type { CSSProperties } from "react";
 
 const contactCards = [
@@ -23,12 +24,6 @@ const contactCards = [
 
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
-
-const scrollToSection = (targetId: string): void => {
-  const element = document.getElementById(targetId);
-  if (!element) return;
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
-};
 
 export const ContactSection = (): JSX.Element => {
   return (
@@ -99,3 +94,4 @@ export const ContactSection = (): JSX.Element => {
     </section>
   );
 };
+

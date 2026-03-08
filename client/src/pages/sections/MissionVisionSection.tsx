@@ -1,6 +1,7 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { scrollToSection } from "@/lib/site";
 import type { CSSProperties } from "react";
 
 const achievements = [
@@ -17,12 +18,6 @@ const achievements = [
 
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
-
-const scrollToSection = (targetId: string): void => {
-  const element = document.getElementById(targetId);
-  if (!element) return;
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
-};
 
 export const MissionVisionSection = (): JSX.Element => {
   return (
@@ -170,3 +165,4 @@ export const MissionVisionSection = (): JSX.Element => {
     </section>
   );
 };
+
