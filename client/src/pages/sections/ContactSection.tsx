@@ -24,6 +24,12 @@ const contactCards = [
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
 
+const scrollToSection = (targetId: string): void => {
+  const element = document.getElementById(targetId);
+  if (!element) return;
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
 export const ContactSection = (): JSX.Element => {
   return (
     <section id="contact" className="w-full py-24 flex justify-center" dir="rtl">
@@ -74,6 +80,8 @@ export const ContactSection = (): JSX.Element => {
           </div>
 
           <Button
+            type="button"
+            onClick={() => scrollToSection("services")}
             className="bg-[#1D3E4B] hover:bg-[#1D3E4B]/90 text-white h-auto px-10 py-5 rounded-2xl gap-3 animate-fade-up opacity-0"
             style={fadeDelay(0.34)}
           >

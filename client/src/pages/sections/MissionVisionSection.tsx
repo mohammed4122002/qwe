@@ -18,6 +18,12 @@ const achievements = [
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
 
+const scrollToSection = (targetId: string): void => {
+  const element = document.getElementById(targetId);
+  if (!element) return;
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
 export const MissionVisionSection = (): JSX.Element => {
   return (
     <section id="about" className="relative w-full py-24">
@@ -76,7 +82,9 @@ export const MissionVisionSection = (): JSX.Element => {
             </div>
 
             <Button
+              type="button"
               variant="link"
+              onClick={() => scrollToSection("services")}
               className="h-auto p-0 text-[#1D3E4B] hover:no-underline animate-fade-up opacity-0"
               style={fadeDelay(0.42)}
             >

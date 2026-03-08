@@ -54,6 +54,12 @@ const companyCards = [
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
 
+const scrollToSection = (targetId: string): void => {
+  const element = document.getElementById(targetId);
+  if (!element) return;
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
 export const ServicesSection = (): JSX.Element => {
   return (
     <section className="relative w-full py-24 flex flex-col items-end">
@@ -81,6 +87,8 @@ export const ServicesSection = (): JSX.Element => {
               </p>
 
               <Button
+                type="button"
+                onClick={() => scrollToSection("contact")}
                 className="h-auto px-8 py-4 bg-[#1D3E4B] hover:bg-[#1D3E4B]/90 rounded-xl gap-3 animate-fade-up opacity-0"
                 style={fadeDelay(0.2)}
               >
@@ -90,20 +98,20 @@ export const ServicesSection = (): JSX.Element => {
             </div>
 
             <div
-              className="relative w-full h-[400px] flex items-center justify-center order-2 lg:order-1 animate-fade-up opacity-0"
+              className="relative w-full flex items-center justify-center order-2 lg:order-1 animate-fade-up opacity-0"
               style={fadeDelay(0.12)}
             >
-              <div className="relative w-[520px] h-[350px]">
+              <div className="relative w-full max-w-[520px] h-auto lg:h-[350px] grid grid-cols-1 sm:grid-cols-2 lg:block gap-4 lg:gap-0">
                 {serviceCards.map((card, index) => (
                   <Card
                     key={index}
-                    className={`flex flex-col w-[252px] h-[166px] items-end p-6 absolute ${card.position} bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow animate-fade-up opacity-0`}
+                    className={`flex flex-col w-full lg:w-[252px] min-h-[166px] lg:h-[166px] items-end p-6 lg:absolute ${card.position} bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow animate-fade-up opacity-0`}
                     style={fadeDelay(0.22 + index * 0.08)}
                   >
-                    <CardContent className="p-0 flex flex-col items-end gap-2 w-full">
+                    <CardContent className="p-0 flex flex-col items-end gap-2 w-full text-right">
                       <img className="w-10 h-10 mb-2" alt="icon" src={card.icon} />
                       <h3 className="text-[#1D3E4B] text-lg font-bold">{card.title}</h3>
-                      <p className="text-[#8B939A] text-sm">{card.description}</p>
+                      <p className="text-[#8B939A] text-sm leading-6">{card.description}</p>
                     </CardContent>
                   </Card>
                 ))}

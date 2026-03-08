@@ -8,7 +8,7 @@ import {
   Globe2,
   Users,
 } from "lucide-react";
-import type { CSSProperties } from "react";
+import { type CSSProperties, useEffect, useRef, useState } from "react";
 
 const decorativeDotsData = [
   { top: "top-[65px]", left: "left-[203px]" },
@@ -69,9 +69,108 @@ const smallStatsData = [
 const fadeDelay = (delay: number): CSSProperties =>
   ({ "--animation-delay": `${delay}s` }) as CSSProperties;
 
-export const AchievementsStatsSection = (): JSX.Element => {
+const parseCounterValue = (value: string): { suffix: string; target: number } => {
+  const digits = value.replace(/[^\d]/g, "");
+  const target = Number.parseInt(digits, 10) || 0;
+  const suffix = value.replace(/[\d\s]/g, "");
+
+  return { suffix, target };
+};
+
+type AnimatedCounterProps = {
+  active: boolean;
+  className: string;
+  delay?: number;
+  duration?: number;
+  value: string;
+};
+
+const AnimatedCounter = ({
+  active,
+  className,
+  delay = 0,
+  duration = 1300,
+  value,
+}: AnimatedCounterProps): JSX.Element => {
+  const { suffix, target } = parseCounterValue(value);
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (!active) return;
+
+    const prefersReducedMotion =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReducedMotion) {
+      setCount(target);
+      return;
+    }
+
+    let rafId = 0;
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+
+    timeoutId = setTimeout(() => {
+      const startTime = performance.now();
+
+      const animate = (timestamp: number): void => {
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        const eased = 1 - (1 - progress) ** 3;
+        setCount(Math.round(target * eased));
+
+        if (progress < 1) {
+          rafId = requestAnimationFrame(animate);
+        }
+      };
+
+      rafId = requestAnimationFrame(animate);
+    }, delay * 1000);
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+      if (rafId) cancelAnimationFrame(rafId);
+    };
+  }, [active, delay, duration, target]);
+
   return (
-    <section id="achievements" className="relative w-full py-24 overflow-hidden">
+    <span className={className}>
+      {count}
+      {suffix}
+    </span>
+  );
+};
+
+export const AchievementsStatsSection = (): JSX.Element => {
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [countersActive, setCountersActive] = useState(false);
+
+  useEffect(() => {
+    const current = sectionRef.current;
+    if (!current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setCountersActive(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.3,
+        rootMargin: "0px 0px -12% 0px",
+      },
+    );
+
+    observer.observe(current);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <section
+      ref={sectionRef}
+      id="achievements"
+      className="relative w-full py-24 overflow-hidden"
+    >
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(16,22,31,1)_0%,rgba(29,62,75,1)_48%,rgba(49,92,103,1)_100%)]" />
         <div className="absolute top-[-300px] left-[1140px] w-[600px] h-[600px] bg-[#1D3E4B33] rounded-full blur-[60px]" />
@@ -136,9 +235,13 @@ export const AchievementsStatsSection = (): JSX.Element => {
                     </div>
 
                     <div className="w-full flex flex-col items-end text-right">
-                      <div className="text-white text-5xl leading-[1.2] font-normal [font-family:'Tajawal',sans-serif]">
-                        {stat.value}
-                      </div>
+                      <AnimatedCounter
+                        active={countersActive}
+                        className="text-white text-5xl leading-[1.2] font-normal tabular-nums [font-family:'Tajawal',sans-serif]"
+                        delay={0.32 + index * 0.1}
+                        duration={1300}
+                        value={stat.value}
+                      />
                       <div className="text-[#F4F5F4de] text-3xl font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
                         {stat.title}
                       </div>
@@ -162,9 +265,13 @@ export const AchievementsStatsSection = (): JSX.Element => {
                     <div className="w-12 h-12 rounded-2xl bg-[#F4F5F424] border border-[#F4F5F414] flex items-center justify-center">
                       <stat.Icon className="w-[22px] h-[22px] text-white" strokeWidth={1.9} />
                     </div>
-                    <div className="text-white text-4xl leading-none font-normal [font-family:'Tajawal',sans-serif]">
-                      {stat.value}
-                    </div>
+                    <AnimatedCounter
+                      active={countersActive}
+                      className="text-white text-4xl leading-none font-normal tabular-nums [font-family:'Tajawal',sans-serif]"
+                      delay={0.46 + index * 0.08}
+                      duration={1150}
+                      value={stat.value}
+                    />
                     <div className="text-[#8B939A] text-base font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
                       {stat.label}
                     </div>
@@ -195,9 +302,13 @@ export const AchievementsStatsSection = (): JSX.Element => {
               </div>
 
               <div className="flex flex-col items-end text-right">
-                <div className="text-white text-[112px] leading-[110px] tracking-[-4px] font-normal [font-family:'Tajawal',sans-serif]">
-                  500+
-                </div>
+                <AnimatedCounter
+                  active={countersActive}
+                  className="text-white text-[112px] leading-[110px] tracking-[-4px] font-normal tabular-nums [font-family:'Tajawal',sans-serif]"
+                  delay={0.54}
+                  duration={1700}
+                  value="500+"
+                />
                 <div className="text-[#F4F5F4f0] text-[20px] font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
                   مشروع منجز
                 </div>
@@ -212,5 +323,4 @@ export const AchievementsStatsSection = (): JSX.Element => {
     </section>
   );
 };
-
 

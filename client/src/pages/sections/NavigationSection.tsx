@@ -42,7 +42,7 @@ export const NavigationSection = (): JSX.Element => {
                 onClick={() => scrollToSection("contact")}
                 className="h-10 px-6 py-2.5 bg-[#315C67] rounded-xl overflow-hidden shadow-[0px_10px_15px_-3px_#1D3E4B40,0px_4px_6px_-4px_#1D3E4B40] hover:bg-[#315C67]/90 relative"
               >
-                <div className="absolute top-0 left-[-141px] w-[141px] h-10 bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(244,245,244,0.2)_50%,rgba(16,22,31,0)_100%)]" />
+                <div className="absolute top-0 left-[-141px]  h-10 bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(244,245,244,0.2)_50%,rgba(16,22,31,0)_100%)]" />
                 <div className="flex items-center justify-end gap-2">
                   <img
                     className="w-[14.02px] h-5"
