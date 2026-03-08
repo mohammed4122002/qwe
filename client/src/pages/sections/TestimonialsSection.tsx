@@ -1,5 +1,6 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import type { CSSProperties } from "react";
 
 const testimonials = [
   {
@@ -24,6 +25,9 @@ const testimonials = [
   },
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const TestimonialsSection = (): JSX.Element => {
   return (
     <section
@@ -32,7 +36,10 @@ export const TestimonialsSection = (): JSX.Element => {
     >
       <div className="container max-w-7xl px-6">
         <div className="flex flex-col items-center gap-16">
-          <div className="flex flex-col items-center gap-4 text-center max-w-4xl">
+          <div
+            className="flex flex-col items-center gap-4 text-center max-w-4xl animate-fade-up opacity-0"
+            style={fadeDelay(0.05)}
+          >
             <Badge className="bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] h-auto px-4 py-2 gap-2 rounded-full">
               <img
                 className="w-4 h-6"
@@ -57,7 +64,8 @@ export const TestimonialsSection = (): JSX.Element => {
             {testimonials.map((testimonial, index) => (
               <Card
                 key={index}
-                className="bg-white rounded-3xl border border-slate-100"
+                className="bg-white rounded-3xl border border-slate-100 animate-fade-up opacity-0"
+                style={fadeDelay(0.14 + index * 0.08)}
               >
                 <CardContent className="p-8 flex flex-col gap-6">
                   <div className="flex flex-col gap-2">
@@ -101,7 +109,3 @@ export const TestimonialsSection = (): JSX.Element => {
     </section>
   );
 };
-
-
-
-

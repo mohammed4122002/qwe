@@ -1,5 +1,6 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import type { CSSProperties } from "react";
 
 const awardsData = [
   {
@@ -28,6 +29,9 @@ const awardsData = [
   },
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const BusinessCardsSection = (): JSX.Element => {
   return (
     <section className="relative w-full py-[70px] pb-24 overflow-hidden">
@@ -35,7 +39,10 @@ export const BusinessCardsSection = (): JSX.Element => {
 
       <div className="relative container max-w-6xl mx-auto px-6">
         <div className="flex flex-col items-center gap-16">
-          <div className="flex flex-col items-center gap-6 w-full">
+          <div
+            className="flex flex-col items-center gap-6 w-full animate-fade-up opacity-0"
+            style={fadeDelay(0.06)}
+          >
             <div className="flex items-center justify-center">
               <Badge className="h-10 px-4 py-2 bg-[#F4F5F4] hover:bg-[#F4F5F4] text-[#1D3E4B] rounded-full gap-2 [font-family:'Tajawal',sans-serif] font-normal text-sm">
                 <img
@@ -60,7 +67,8 @@ export const BusinessCardsSection = (): JSX.Element => {
             {awardsData.map((award, index) => (
               <Card
                 key={index}
-                className="relative overflow-hidden border-[#F4F5F4] rounded-3xl bg-white"
+                className="relative overflow-hidden border-[#F4F5F4] rounded-3xl bg-white animate-fade-up opacity-0"
+                style={fadeDelay(0.16 + index * 0.08)}
               >
                 <div className="absolute top-px left-[-255px] w-64 h-[237px] bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(139,147,154,0.34)_50%,rgba(16,22,31,0)_100%)]" />
 
@@ -91,9 +99,3 @@ export const BusinessCardsSection = (): JSX.Element => {
     </section>
   );
 };
-
-
-
-
-
-

@@ -39,7 +39,7 @@ export const Frame = (): JSX.Element => {
             />
             <div className="flex items-center">
               <p className="font-normal text-[#8B939A] text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl] [font-family:'Tajawal',sans-serif]">
-                آ© 2026 ظ…ط­ظ…ظˆط¯ ط§ظ„ط£ط؛ظˆط§ظ†ظٹ. ط¬ظ…ظٹط¹ ط§ظ„ط­ظ‚ظˆظ‚ ظ…ط­ظپظˆط¸ط©
+               © 2026 محمود الأغواني. جميع الحقوق محفوظة
               </p>
             </div>
           </div>

@@ -1,6 +1,7 @@
 ﻿import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import type { CSSProperties } from "react";
 
 const contactCards = [
   {
@@ -20,12 +21,18 @@ const contactCards = [
   },
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const ContactSection = (): JSX.Element => {
   return (
-    <section className="w-full py-24 flex justify-center" dir="rtl">
+    <section id="contact" className="w-full py-24 flex justify-center" dir="rtl">
       <div className="w-full max-w-screen-lg px-6">
         <div className="flex flex-col items-center gap-16">
-          <div className="flex flex-col items-center gap-6 max-w-[976px]">
+          <div
+            className="flex flex-col items-center gap-6 max-w-[976px] animate-fade-up opacity-0"
+            style={fadeDelay(0.05)}
+          >
             <Badge className="bg-[#F4F5F4] text-[#1D3E4B] hover:bg-[#F4F5F4] h-auto px-4 py-2 gap-2 rounded-full">
               <span className="text-sm font-normal [font-family:'Tajawal',sans-serif]">
                 تواصل
@@ -50,7 +57,8 @@ export const ContactSection = (): JSX.Element => {
             {contactCards.map((card, index) => (
               <Card
                 key={index}
-                className="w-full sm:w-[309px] bg-white rounded-3xl border-slate-100"
+                className="w-full sm:w-[309px] bg-white rounded-3xl border-slate-100 animate-fade-up opacity-0"
+                style={fadeDelay(0.14 + index * 0.08)}
               >
                 <CardContent className="flex flex-col items-center p-[33px] gap-2">
                   <img className="mb-2" alt={card.label} src={card.icon} />
@@ -65,7 +73,10 @@ export const ContactSection = (): JSX.Element => {
             ))}
           </div>
 
-          <Button className="bg-[#1D3E4B] hover:bg-[#1D3E4B]/90 text-white h-auto px-10 py-5 rounded-2xl gap-3">
+          <Button
+            className="bg-[#1D3E4B] hover:bg-[#1D3E4B]/90 text-white h-auto px-10 py-5 rounded-2xl gap-3 animate-fade-up opacity-0"
+            style={fadeDelay(0.34)}
+          >
             <span className="text-base font-normal [font-family:'Tajawal',sans-serif]">
               استكشف خدمات الوكالة
             </span>
@@ -80,7 +91,3 @@ export const ContactSection = (): JSX.Element => {
     </section>
   );
 };
-
-
-
-

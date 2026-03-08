@@ -8,6 +8,7 @@ import {
   Globe2,
   Users,
 } from "lucide-react";
+import type { CSSProperties } from "react";
 
 const decorativeDotsData = [
   { top: "top-[65px]", left: "left-[203px]" },
@@ -65,9 +66,12 @@ const smallStatsData = [
   },
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const AchievementsStatsSection = (): JSX.Element => {
   return (
-    <section className="relative w-full py-24 overflow-hidden">
+    <section id="achievements" className="relative w-full py-24 overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(16,22,31,1)_0%,rgba(29,62,75,1)_48%,rgba(49,92,103,1)_100%)]" />
         <div className="absolute top-[-300px] left-[1140px] w-[600px] h-[600px] bg-[#1D3E4B33] rounded-full blur-[60px]" />
@@ -82,7 +86,10 @@ export const AchievementsStatsSection = (): JSX.Element => {
       </div>
 
       <div className="relative max-w-[1180px] mx-auto px-6">
-        <header className="flex flex-col items-center mb-16">
+        <header
+          className="flex flex-col items-center mb-16 animate-fade-up opacity-0"
+          style={fadeDelay(0.04)}
+        >
           <Badge
             variant="outline"
             className="mb-8 h-auto px-[21px] py-[11px] bg-[#F4F5F40f] border-[#F4F5F41a] rounded-full"
@@ -96,13 +103,14 @@ export const AchievementsStatsSection = (): JSX.Element => {
             </div>
           </Badge>
 
-          <div className="flex items-center gap-3 mb-6">
-            <h2 className="text-white text-5xl md:text-6xl font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
-              إنجازات
-            </h2>
-            <h2 className="text-[#315C67] text-5xl md:text-6xl font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
+          <div className="flex items-center gap-3 mb-6 ">
+              <h2 className="text-white  border-b-4 border-[#315C67]  text-5xl md:text-6xl font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
               استثنائية
             </h2>
+            <h2 className="text-white text-5xl md:text-6xl font-bold [font-family:'Tajawal',sans-serif] [direction:rtl]">
+              إنجازات
+            </h2>
+          
           </div>
 
           <p className="max-w-2xl text-[#8B939A] text-lg text-center font-normal [font-family:'Tajawal',sans-serif] [direction:rtl]">
@@ -111,12 +119,16 @@ export const AchievementsStatsSection = (): JSX.Element => {
         </header>
 
         <div className="flex flex-col lg:flex-row gap-5" dir="ltr">
-          <div className="flex-1 space-y-5">
+          <div
+            className="flex-1 space-y-5 animate-fade-up opacity-0"
+            style={fadeDelay(0.14)}
+          >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {largeStatsData.map((stat, index) => (
                 <Card
                   key={`large-stat-${index}`}
-                  className="bg-[#F4F5F40d] border-[#F4F5F41a] rounded-[28px]"
+                  className="bg-[#F4F5F40d] border-[#F4F5F41a] rounded-[28px] animate-fade-up opacity-0"
+                  style={fadeDelay(0.2 + index * 0.08)}
                 >
                   <CardContent className="p-8 min-h-[246px] flex flex-col items-end justify-between">
                     <div className="w-12 h-12 rounded-2xl bg-[#F4F5F424] border border-[#F4F5F414] flex items-center justify-center">
@@ -143,7 +155,8 @@ export const AchievementsStatsSection = (): JSX.Element => {
               {smallStatsData.map((stat, index) => (
                 <Card
                   key={`small-stat-${index}`}
-                  className="bg-[#F4F5F40d] border-[#F4F5F41a] rounded-3xl"
+                  className="bg-[#F4F5F40d] border-[#F4F5F41a] rounded-3xl animate-fade-up opacity-0"
+                  style={fadeDelay(0.36 + index * 0.08)}
                 >
                   <CardContent className="p-7 min-h-[172px] flex flex-col items-center justify-between">
                     <div className="w-12 h-12 rounded-2xl bg-[#F4F5F424] border border-[#F4F5F414] flex items-center justify-center">
@@ -161,7 +174,10 @@ export const AchievementsStatsSection = (): JSX.Element => {
             </div>
           </div>
 
-          <Card className="relative w-full lg:w-[460px] bg-[#315C67] border-[#8B939A] rounded-[32px] overflow-hidden shadow-[0px_20px_40px_-15px_#1D3E4B66]">
+          <Card
+            className="relative w-full lg:w-[460px] bg-[#315C67] border-[#8B939A] rounded-[32px] overflow-hidden shadow-[0px_20px_40px_-15px_#1D3E4B66] animate-fade-up opacity-0"
+            style={fadeDelay(0.28)}
+          >
             <div className="absolute -top-24 -left-12 w-72 h-72 bg-[#F4F5F42e] rounded-full" />
             <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-[#F4F5F41f] rounded-full" />
             <div className="absolute top-14 right-8 w-[120px] h-[120px] bg-[#F4F5F41f] rounded-[28px]" />
@@ -196,7 +212,5 @@ export const AchievementsStatsSection = (): JSX.Element => {
     </section>
   );
 };
-
-
 
 

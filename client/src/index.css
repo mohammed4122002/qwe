@@ -12,11 +12,11 @@
 }
 
 .animate-fade-in {
-  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+  animation: fade-in 700ms var(--animation-delay, 0s) cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .animate-fade-up {
-  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+  animation: fade-up 780ms var(--animation-delay, 0s) cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .animate-marquee {
@@ -60,14 +60,8 @@
 @keyframes fade-in {
   0% {
     opacity: 0;
-    transform: translateY(-28px) scale(0.9);
-    filter: blur(8px);
-  }
-
-  65% {
-    opacity: 1;
-    transform: translateY(6px) scale(1.03);
-    filter: blur(0);
+    transform: translateY(-10px) scale(0.995);
+    filter: blur(2px);
   }
 
   to {
@@ -80,14 +74,8 @@
 @keyframes fade-up {
   0% {
     opacity: 0;
-    transform: translateY(52px) scale(0.88);
-    filter: blur(10px);
-  }
-
-  68% {
-    opacity: 1;
-    transform: translateY(-6px) scale(1.02);
-    filter: blur(0);
+    transform: translateY(18px) scale(0.992);
+    filter: blur(3px);
   }
 
   to {
@@ -100,12 +88,12 @@
 @keyframes about-percent-ring-in {
   0% {
     opacity: 0;
-    transform: scale(0.65) rotate(-220deg);
+    transform: scale(0.93) rotate(-14deg);
   }
 
-  75% {
+  70% {
     opacity: 1;
-    transform: scale(1.05) rotate(18deg);
+    transform: scale(1.01) rotate(2deg);
   }
 
   100% {
@@ -122,22 +110,22 @@
   }
 
   50% {
-    transform: scale(1.04);
-    filter: drop-shadow(0 0 14px rgba(49, 92, 103, 0.3));
+    transform: scale(1.012);
+    filter: drop-shadow(0 0 6px rgba(49, 92, 103, 0.14));
   }
 }
 
 @keyframes about-percent-value-burst {
   0% {
     opacity: 0;
-    transform: scale(0.5);
-    letter-spacing: 0.18em;
+    transform: scale(0.95);
+    letter-spacing: 0.02em;
   }
 
-  72% {
+  68% {
     opacity: 1;
-    transform: scale(1.14);
-    letter-spacing: 0.02em;
+    transform: scale(1.01);
+    letter-spacing: 0.01em;
   }
 
   100% {
@@ -149,22 +137,22 @@
 
 .about-stat-card {
   will-change: transform, box-shadow;
-  transition: transform 400ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 400ms ease;
+  transition: transform 360ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 360ms ease;
 }
 
 .about-stat-card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 16px 34px -20px rgba(29, 62, 75, 0.6);
+  transform: translateY(-3px) scale(1.006);
+  box-shadow: 0 12px 24px -22px rgba(29, 62, 75, 0.34);
 }
 
 .about-percent-ring-active {
   animation:
-    about-percent-ring-in 1100ms var(--animation-delay, 0s) cubic-bezier(0.16, 1, 0.3, 1) both,
-    about-percent-ring-pulse 2800ms ease-in-out calc(var(--animation-delay, 0s) + 1100ms) infinite;
+    about-percent-ring-in 760ms var(--animation-delay, 0s) cubic-bezier(0.22, 1, 0.36, 1) both,
+    about-percent-ring-pulse 4200ms ease-in-out calc(var(--animation-delay, 0s) + 820ms) infinite;
 }
 
 .about-percent-value-active {
-  animation: about-percent-value-burst 900ms var(--animation-delay, 0s) cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: about-percent-value-burst 640ms var(--animation-delay, 0s) cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes shimmer {
@@ -240,7 +228,7 @@
   filter: blur(70px);
   opacity: 0.2;
   will-change: transform;
-  animation: orb-drift 14s ease-in-out infinite alternate;
+  animation: orb-drift 22s ease-in-out infinite alternate;
 }
 
 .ambient-orb-primary {
@@ -276,14 +264,14 @@
 .hero-orbit-ring-main {
   width: 345px;
   height: 345px;
-  animation: orbit-spin 22s linear infinite;
+  animation: orbit-spin 30s linear infinite;
 }
 
 .hero-orbit-ring-alt {
   width: 308px;
   height: 308px;
   opacity: 0.55;
-  animation: orbit-spin-reverse 14s linear infinite;
+  animation: orbit-spin-reverse 22s linear infinite;
 }
 
 .hero-orbit-dots {
@@ -292,11 +280,11 @@
 }
 
 .hero-orbit-dots-slow {
-  animation: orbit-spin 12s linear infinite;
+  animation: orbit-spin 18s linear infinite;
 }
 
 .hero-orbit-dots-fast {
-  animation: orbit-spin-reverse 8.5s linear infinite;
+  animation: orbit-spin-reverse 14s linear infinite;
 }
 
 .hero-orbit-dot {

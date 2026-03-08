@@ -1,5 +1,6 @@
 ﻿import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
+import type { CSSProperties } from "react";
 
 const decorativeDots = [
   { top: "top-[65px]", left: "left-[203px]" },
@@ -24,6 +25,9 @@ const decorativeDots = [
   { top: "top-[1214px]", left: "left-[763px]" },
 ];
 
+const fadeDelay = (delay: number): CSSProperties =>
+  ({ "--animation-delay": `${delay}s` }) as CSSProperties;
+
 export const PerformanceStatsSection = (): JSX.Element => {
   return (
     <section className="relative w-full overflow-hidden">
@@ -31,14 +35,18 @@ export const PerformanceStatsSection = (): JSX.Element => {
         <div className="relative w-full bg-[linear-gradient(150deg,rgba(16,22,31,1)_0%,rgba(29,62,75,1)_50%,rgba(49,92,103,1)_100%)] py-20">
           <div className="container mx-auto max-w-4xl px-6">
             <Card className="border-0 bg-transparent shadow-none">
-              <CardContent className="flex flex-col items-end space-y-12 p-0">
+              <CardContent className="flex flex-col items-center space-y-12 p-0">
                 <img
-                  className="h-auto w-auto"
+                  className="h-auto w-auto animate-fade-up opacity-0"
+                  style={fadeDelay(0.04)}
                   alt="Margin wrap"
                   src="/figmaAssets/margin-wrap-32.svg"
                 />
 
-                <blockquote className="space-y-0 text-center">
+                <blockquote
+                  className="space-y-0 text-center animate-fade-up opacity-0"
+                  style={fadeDelay(0.12)}
+                >
                   <p className="font-normal text-white text-3xl tracking-[0] leading-9 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                     أؤمن بأن النجاح الحقيقي ليس في بناء شركات عظيمة فحسب، بل في
                   </p>
@@ -47,7 +55,10 @@ export const PerformanceStatsSection = (): JSX.Element => {
                   </p>
                 </blockquote>
 
-                <div className="flex items-center gap-4">
+                <div
+                  className="flex items-center gap-4 animate-fade-up opacity-0"
+                  style={fadeDelay(0.2)}
+                >
                   <div className="flex flex-col items-end space-y-0">
                     <p className="font-normal text-white text-lg tracking-[0] leading-7 [direction:rtl] [font-family:'Tajawal',sans-serif]">
                       محمود الأغواني
@@ -84,8 +95,3 @@ export const PerformanceStatsSection = (): JSX.Element => {
     </section>
   );
 };
-
-
-
-
-
