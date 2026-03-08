@@ -232,11 +232,7 @@ export const HeroProfileSection = (): JSX.Element => {
                 >
                   <div className="absolute top-0 left-[-141px]  h-10 bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(244,245,244,0.2)_50%,rgba(16,22,31,0)_100%)]" />
                   <div className="flex items-center justify-end gap-2">
-                    <img
-                      className="w-[14.02px] h-5"
-                      alt="Contact icon"
-                      src="/figmaAssets/i-496.svg"
-                    />
+                
                     <span className="[font-family:'Tajawal',sans-serif] font-normal text-white text-sm tracking-[0] leading-5 whitespace-nowrap [direction:rtl]">
                       تواصل معي
                     </span>

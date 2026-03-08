@@ -39,11 +39,7 @@ export const NavigationSection = (): JSX.Element => {
               >
                 <div className="absolute left-[-141px] top-0 h-10 bg-[linear-gradient(90deg,rgba(16,22,31,0)_0%,rgba(244,245,244,0.2)_50%,rgba(16,22,31,0)_100%)]" />
                 <div className="flex items-center justify-end gap-2">
-                  <img
-                    className="h-5 w-[14.02px]"
-                    alt="Contact icon"
-                    src="/figmaAssets/i-496.svg"
-                  />
+              
                   <span className="[font-family:'Tajawal',sans-serif] whitespace-nowrap text-sm font-normal leading-5 tracking-[0] text-white [direction:rtl]">
                     تواصل معي
                   </span>
